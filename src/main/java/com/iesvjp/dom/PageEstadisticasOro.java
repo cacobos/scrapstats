@@ -23,12 +23,11 @@ public class PageEstadisticasOro extends Base {
 	private By byTablaResultados = By.cssSelector("#rachasDataGrid");
 
 	private Set<String> tabs;
-	
 	private List<Equipo> equipos;
 
 	public PageEstadisticasOro(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
+		equipos=new ArrayList<Equipo>();
 	}
 
 	public void mostrarEquipos() {
@@ -38,7 +37,7 @@ public class PageEstadisticasOro extends Base {
 		}
 	}
 
-	public void getResultadosLebOro() {
+	/*public void getResultadosLebOro() {
 		List<WebElement> equipos = driver.findElements(byNombresEquipos);
 		for (int i = 0; i < equipos.size(); i++) {
 			Utilidades.abrirEnNewTab(driver, equipos.get(i));
@@ -49,7 +48,7 @@ public class PageEstadisticasOro extends Base {
 		}
 		tabs = driver.getWindowHandles();
 		iterarTabsGetResultados();
-	}
+	}*/
 
 	private void iterarTabsGetResultados() {
 		Iterator<String> it = tabs.iterator();
@@ -58,7 +57,6 @@ public class PageEstadisticasOro extends Base {
 			tab = it.next();
 			driver.switchTo().window(tab);
 			if (isPageEquipo()) {
-				System.out.println(driver.findElement(byEnlaceResultados).getText());
 				driver.findElement(byEnlaceResultados).click();
 			} else if (isPageResultados()) {
 				mostrarResultados();
@@ -78,13 +76,11 @@ public class PageEstadisticasOro extends Base {
 		}
 	}
 	
-	public List<Equipo> getEquipos() {
-		equipos=new ArrayList<Equipo>();
+public List<Equipo> getEquipos() {
 		List<WebElement> webElementsEquipos = driver.findElements(byNombresEquipos);
 		for (int i = 0; i < webElementsEquipos.size(); i++) {
 			Utilidades.abrirEnNewTab(driver, webElementsEquipos.get(i));
 			if (isPageEquipo()) {
-				System.out.println(driver.findElement(byEnlaceResultados).getText());
 				driver.findElement(byEnlaceResultados).click();
 			}
 		}
@@ -107,11 +103,11 @@ public class PageEstadisticasOro extends Base {
 				e.setCategoria(driver.findElement(byCategoria).getText());
 				e.setTemporada(driver.findElement(byTemporada).getText());
 				e.setNombre(driver.findElement(byNombreEquipo).getText());
-				e.setUrl(driver.getCurrentUrl());				
+				e.setUrl(driver.getCurrentUrl());	
 				equipos.add(e);
-				driver.close();
 			}
-			
+
+			driver.close();
 		}
 	}
 

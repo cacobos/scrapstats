@@ -13,16 +13,15 @@ import org.openqa.selenium.WebElement;
 
 import com.iesvjp.modelos.Equipo;
 import com.iesvjp.modelos.Jugador;
-import com.iesvjp.modelos.LineaPartido;
+import com.iesvjp.modelos.Lineapartido;
 import com.iesvjp.modelos.Partido;
 
 public class PagePartido extends Base {
 
-	
 	final static By byEquipoLocal = By.cssSelector("#equipoLocalHyperLink");
 	final static By byEquipoVisitante = By.cssSelector("#equipoVisitanteHyperLink");
-	final static By byTemporada=By.cssSelector("paginaTitulo_temporadaLabel");
-	final static By byCompeticion=By.cssSelector("paginaTitulo_ligaLabel");
+	final static By byTemporada = By.cssSelector("#paginaTitulo_temporadaLabel");
+	final static By byCompeticion = By.cssSelector("#paginaTitulo_ligaLabel");
 	final static By byTablaPuntosCuartos = By.cssSelector(".tablaResultadosCuartos");
 	final static By byptosLocal = By.cssSelector("#resultadoLocalLabel");
 	final static By byptosVisitante = By.cssSelector("#resultadoVisitanteLabel");
@@ -65,44 +64,46 @@ public class PagePartido extends Base {
 			.cssSelector("#jugadoresLocalDataGrid .itemTabla, #jugadoresLocalDataGrid .itemAlternativoTabla ");
 	final static By byLineasVisit = By
 			.cssSelector("#jugadoresVisitanteDataGrid .itemTabla, #jugadoresVisitanteDataGrid .itemAlternativoTabla ");
-	
-	final static By byMinutosJugador=By.cssSelector("td:nth-child(4) span");
-	final static By byNombreJugador=By.cssSelector("td:nth-child(3) a");
-	final static By byPuntosJugador=By.cssSelector("td:nth-child(5) span");
-	final static By byt2Jugador=By.cssSelector("td:nth-child(6) span");
-	final static By byt3Jugador=By.cssSelector("td:nth-child(7) span");
-	final static By bytlJugador=By.cssSelector("td:nth-child(9) span");
-	final static By byrbdJugador=By.cssSelector("td:nth-child(10) td:nth-child(1) span");
-	final static By byrboJugador=By.cssSelector("td:nth-child(10) td:nth-child(2) span");
-	final static By byasJugador=By.cssSelector("td:nth-child(11) span");
-	final static By bybrJugador=By.cssSelector("td:nth-child(12) span");
-	final static By bybpJugador=By.cssSelector("td:nth-child(13) span");
-	final static By byfcJugador=By.cssSelector("td:nth-child(16) td:nth-child(1) span");
-	final static By byfrJugador=By.cssSelector("td:nth-child(16) td:nth-child(2) span");
-	final 	static By byvalJugador=By.cssSelector("td:nth-child(17) span");
-	final static By bymasmenosJugador=By.cssSelector("td:nth-child(18) span");
+
+	final static By byMinutosJugador = By.cssSelector("td:nth-child(4) span");
+	final static By byNombreJugador = By.cssSelector("td:nth-child(3) a");
+	final static By byPuntosJugador = By.cssSelector("td:nth-child(5) span");
+	final static By byt2Jugador = By.cssSelector("td:nth-child(6) span");
+	final static By byt3Jugador = By.cssSelector("td:nth-child(7) span");
+	final static By bytlJugador = By.cssSelector("td:nth-child(9) span");
+	final static By byrbdJugador = By.cssSelector("td:nth-child(10) td:nth-child(1) span");
+	final static By byrboJugador = By.cssSelector("td:nth-child(10) td:nth-child(2) span");
+	final static By byasJugador = By.cssSelector("td:nth-child(11) span");
+	final static By bybrJugador = By.cssSelector("td:nth-child(12) span");
+	final static By bybpJugador = By.cssSelector("td:nth-child(13) span");
+	final static By byfcJugador = By.cssSelector("td:nth-child(16) td:nth-child(1) span");
+	final static By byfrJugador = By.cssSelector("td:nth-child(16) td:nth-child(2) span");
+	final static By byvalJugador = By.cssSelector("td:nth-child(17) span");
+	final static By bymasmenosJugador = By.cssSelector("td:nth-child(18) span");
 
 	public PagePartido(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 
-	public void guardarDatosPartido(EntityManager em) {
+	public void guardarDatosPartido(Partido p, EntityManager em) {
+		visit(p.getUrl());
 		String nomEquipoLocal = findElement(byEquipoLocal).getText();
 		String nomEquipoVisitante = findElement(byEquipoVisitante).getText();
-		String temporada=findElement(byTemporada).getText();
-		Equipo equipoLocal = (Equipo) em.createQuery("select e from Equipo e where e.nombre = :nombre and e.temporada= :temporada")
+		String temporada = findElement(byTemporada).getText();
+		Equipo equipoLocal = (Equipo) em
+				.createQuery("select e from Equipo e where e.nombre = :nombre and e.temporada= :temporada")
 				.setParameter("nombre", nomEquipoLocal).setParameter("temporada", temporada).getSingleResult();
-		Equipo equipoVisitante = (Equipo) em.createQuery("select e from Equipo e where e.nombre = :nombre and e.temporada = :temporada")
+		Equipo equipoVisitante = (Equipo) em
+				.createQuery("select e from Equipo e where e.nombre = :nombre and e.temporada = :temporada")
 				.setParameter("nombre", nomEquipoVisitante).setParameter("temporada", temporada).getSingleResult();
-		Date fecha =dateFromString(findElement(byFecha).getText());
-		if (!existePartido(em, equipoLocal, equipoVisitante, fecha)) {
-			Partido p = new Partido();
+		Date fecha = dateFromString(findElement(byFecha).getText());
+		if (!estaCompletoPartido(em, equipoLocal, equipoVisitante, fecha)) {
+			
 
-			p.setEquipoLocal(equipoLocal);
-			p.setEquipoVistante(equipoVisitante);
+			p.setEquipo1(equipoLocal);
+			p.setEquipo2(equipoVisitante);
 			p.setFecha(fecha);
-			p.setCompeticion(findElement(byTemporada).getText());
+			p.setCompeticion(findElement(byCompeticion).getText());
 			p.setTemporada(temporada);
 			p.setUrl(driver.getCurrentUrl());
 
@@ -143,10 +144,8 @@ public class PagePartido extends Base {
 			p.setFrVisit(Integer.parseInt(findElement(byfrVisitante).getText()));
 			p.setValVisit(Integer.parseInt(findElement(byvalVisitante).getText()));
 
-			em.persist(p);
-
 			persistirLineas(em, equipoLocal, equipoVisitante, p);
-			
+
 			em.getTransaction().commit();
 			em.getTransaction().begin();
 		}
@@ -164,49 +163,58 @@ public class PagePartido extends Base {
 	}
 
 	private void persistirLinea(EntityManager em, Equipo equipo, Partido partido, WebElement linea) {
-		String nombreJug=linea.findElement(byNombreJugador).getText();
-		LineaPartido lineaPartido=new LineaPartido();
+		String urlJug = linea.findElement(byNombreJugador).getAttribute("href");
+		Lineapartido lineaPartido = new Lineapartido();
 		Jugador jug;
-		if(existeJugador(em, nombreJug)) {
-			jug=(Jugador)em.createQuery("select j from Jugador j where j.nombre = :nombre").setParameter("nombre", nombreJug).getResultList().get(0);
-		}else {
-			jug=new Jugador();
-			jug.setNombre(nombreJug);
+		if (existeJugador(em, urlJug)) {
+			jug = (Jugador) em.createQuery("select j from Jugador j where j.url = :url").setParameter("url", urlJug)
+					.getResultList().get(0);
+		} else {
+			jug = new Jugador();
+			jug.setUrl(urlJug);
 			em.persist(jug);
 		}
 		lineaPartido.setEquipo(equipo);
 		lineaPartido.setJugador(jug);
 		lineaPartido.setPartido(partido);
-		lineaPartido.setMinutos(timeFromString(linea.findElement(byMinutosJugador).getText()));
-		lineaPartido.setPuntos(Integer.parseInt(linea.findElement(byPuntosJugador).getText()));
-		lineaPartido.setT2a(Integer.parseInt(getAciertos(linea.findElement(byt2Jugador).getText())));
-		lineaPartido.setT2i(Integer.parseInt(getAciertos(linea.findElement(byt2Jugador).getText())));
-		lineaPartido.setT3a(Integer.parseInt(getAciertos(linea.findElement(byt3Jugador).getText())));
-		lineaPartido.setT3i(Integer.parseInt(getAciertos(linea.findElement(byt3Jugador).getText())));
-		lineaPartido.setTla(Integer.parseInt(getAciertos(linea.findElement(bytlJugador).getText())));
-		lineaPartido.setTli(Integer.parseInt(getAciertos(linea.findElement(bytlJugador).getText())));
-		lineaPartido.setRbd(Integer.parseInt(linea.findElement(byrbdJugador).getText()));
-		lineaPartido.setRbo(Integer.parseInt(linea.findElement(byrboJugador).getText()));
-		lineaPartido.setAsist(Integer.parseInt(linea.findElement(byasJugador).getText()));
-		lineaPartido.setBr(Integer.parseInt(linea.findElement(bybrJugador).getText()));
-		lineaPartido.setBp(Integer.parseInt(linea.findElement(bybrJugador).getText()));
-		lineaPartido.setFc(Integer.parseInt(linea.findElement(byfcJugador).getText()));
-		lineaPartido.setFr(Integer.parseInt(linea.findElement(byfrJugador).getText()));
-		lineaPartido.setVal(Integer.parseInt(linea.findElement(byvalJugador).getText()));
-		lineaPartido.setMasMenos(Integer.parseInt(linea.findElement(bymasmenosJugador).getText()));		
-		
-		
-		
-		em.persist(lineaPartido);
+		if (!existeLineaPartido(em, lineaPartido)) {
+			lineaPartido.setMinutos(timeFromString(linea.findElement(byMinutosJugador).getText()));
+			lineaPartido.setPuntos(Integer.parseInt(linea.findElement(byPuntosJugador).getText()));
+			lineaPartido.setT2a(Integer.parseInt(getAciertos(linea.findElement(byt2Jugador).getText())));
+			lineaPartido.setT2i(Integer.parseInt(getAciertos(linea.findElement(byt2Jugador).getText())));
+			lineaPartido.setT3a(Integer.parseInt(getAciertos(linea.findElement(byt3Jugador).getText())));
+			lineaPartido.setT3i(Integer.parseInt(getAciertos(linea.findElement(byt3Jugador).getText())));
+			lineaPartido.setTla(Integer.parseInt(getAciertos(linea.findElement(bytlJugador).getText())));
+			lineaPartido.setTli(Integer.parseInt(getAciertos(linea.findElement(bytlJugador).getText())));
+			lineaPartido.setRbd(Integer.parseInt(linea.findElement(byrbdJugador).getText()));
+			lineaPartido.setRbo(Integer.parseInt(linea.findElement(byrboJugador).getText()));
+			lineaPartido.setAsist(Integer.parseInt(linea.findElement(byasJugador).getText()));
+			lineaPartido.setBr(Integer.parseInt(linea.findElement(bybrJugador).getText()));
+			lineaPartido.setBp(Integer.parseInt(linea.findElement(bybrJugador).getText()));
+			lineaPartido.setFc(Integer.parseInt(linea.findElement(byfcJugador).getText()));
+			lineaPartido.setFr(Integer.parseInt(linea.findElement(byfrJugador).getText()));
+			lineaPartido.setVal(Integer.parseInt(linea.findElement(byvalJugador).getText()));
+			lineaPartido.setMasMenos(Integer.parseInt(linea.findElement(bymasmenosJugador).getText()));
+
+			em.persist(lineaPartido);
+		}
 	}
 
-	private boolean existeJugador(EntityManager em, String nombreJug) {
-		return (long)(em.createQuery("select count(j) from Jugador j where j.nombre = :nombre").setParameter("nombre", nombreJug).getSingleResult())>0;
+	private boolean existeLineaPartido(EntityManager em, Lineapartido lineaPartido) {
+		return (long) em
+				.createQuery("select count(l) from Lineapartido l where l.partido = :partido and l.jugador = :jugador")
+				.setParameter("partido", lineaPartido.getPartido()).setParameter("jugador", lineaPartido.getJugador())
+				.getSingleResult() > 0;
 	}
 
-	private boolean existePartido(EntityManager em, Equipo equipoLocal, Equipo equipoVisitante, Date fecha) {
+	private boolean existeJugador(EntityManager em, String urlJug) {
+		return (long) (em.createQuery("select count(j) from Jugador j where j.url = :url").setParameter("url", urlJug)
+				.getSingleResult()) > 0;
+	}
+
+	private boolean estaCompletoPartido(EntityManager em, Equipo equipoLocal, Equipo equipoVisitante, Date fecha) {
 		return (long) (em.createQuery(
-				"select count(p) from Partido p where equipoLocal = :equipoLocal and equipoVisitante = :equipoVisitante and fecha = :fecha")
+				"select count(p) from Partido p where equipo1 = :equipoLocal and equipo2 = :equipoVisitante and fecha = :fecha")
 				.setParameter("equipoLocal", equipoLocal).setParameter("equipoVisitante", equipoVisitante)
 				.setParameter("fecha", fecha).getSingleResult()) > 0;
 	}
@@ -218,14 +226,14 @@ public class PagePartido extends Base {
 	private String getIntentos(String txt) {
 		return txt.split(" ")[0].split("/")[1];
 	}
-	
+
 	private Date dateFromString(String txt) {
-		String[] div=txt.split("/");
-		return Date.valueOf(LocalDate.of(Integer.parseInt(div[2]), Integer.parseInt(div[1]),Integer.parseInt(div[0])));
+		String[] div = txt.split("/");
+		return Date.valueOf(LocalDate.of(Integer.parseInt(div[2]), Integer.parseInt(div[1]), Integer.parseInt(div[0])));
 	}
-	
+
 	private Time timeFromString(String txt) {
-		String[] div=txt.split(":");
+		String[] div = txt.split(":");
 		return Time.valueOf(LocalTime.of(0, Integer.parseInt(div[0]), Integer.parseInt(div[1])));
 	}
 }

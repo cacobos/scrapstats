@@ -26,13 +26,9 @@ public class App {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
-		/*
-		 * EventQueue.invokeLater(new Runnable() {
-		 * 
-		 * public void run() { VentanaPrincipal vp=new VentanaPrincipal();
-		 * vp.inicializar(); } });
-		 */
-
-		
+		//Utilidades.guardarEquiposLebOro();
+		//Utilidades.guardarPartidosLebOro();
+		//Utilidades.guardarDatosPartidos();
+		Utilidades.guardarDatosJugadores();
 	}
 }
