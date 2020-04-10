@@ -106,15 +106,18 @@ public class PagePartido extends Base {
 			p.setCompeticion(findElement(byCompeticion).getText());
 			p.setTemporada(temporada);
 			p.setUrl(driver.getCurrentUrl());
+			
+			p.setPtoLocal(Integer.parseInt(findElement(byptosLocal).getText()));
+			p.setPtoVisit(Integer.parseInt(findElement(byptosVisitante).getText()));
 
 			p.setPunt1qLocal(Integer.parseInt(findElement(by1qLocal).getText()));
 			p.setPunt2qLocal(Integer.parseInt(findElement(by2qLocal).getText()));
 			p.setPunt3qLocal(Integer.parseInt(findElement(by3qLocal).getText()));
 			p.setPunt4qLocal(Integer.parseInt(findElement(by4qLocal).getText()));
-			p.setPunt1qLocal(Integer.parseInt(findElement(by1qLocal).getText()));
-			p.setPunt2qLocal(Integer.parseInt(findElement(by2qLocal).getText()));
-			p.setPunt3qLocal(Integer.parseInt(findElement(by3qLocal).getText()));
-			p.setPunt4qLocal(Integer.parseInt(findElement(by4qLocal).getText()));
+			p.setPunt1qVisit(Integer.parseInt(findElement(by1qVisit).getText()));
+			p.setPunt2qVisit(Integer.parseInt(findElement(by2qVisit).getText()));
+			p.setPunt3qVisit(Integer.parseInt(findElement(by3qVisit).getText()));
+			p.setPunt4qVisit(Integer.parseInt(findElement(by4qVisit).getText()));
 
 			p.setProrroga(findElements(By.cssSelector(".tablaResultadosCuartos tr:nth-child(2) td")).size() - 1);
 

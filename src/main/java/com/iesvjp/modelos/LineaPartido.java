@@ -4,18 +4,18 @@ import java.io.Serializable;
 import javax.persistence.*;
 import java.sql.Time;
 
+
 /**
  * The persistent class for the lineapartido database table.
  * 
  */
 @Entity
-@Table(name = "lineapartido")
-@NamedQuery(name = "Lineapartido.findAll", query = "SELECT l FROM Lineapartido l")
+@NamedQuery(name="Lineapartido.findAll", query="SELECT l FROM Lineapartido l")
 public class Lineapartido implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 
 	private int asist;
@@ -52,19 +52,19 @@ public class Lineapartido implements Serializable {
 
 	private int val;
 
-	// bi-directional many-to-one association to Equipo
+	//bi-directional many-to-one association to Equipo
 	@ManyToOne
-	@JoinColumn(name = "fk_equipo")
+	@JoinColumn(name="fk_equipo")
 	private Equipo equipo;
 
-	// bi-directional many-to-one association to Jugador
+	//bi-directional many-to-one association to Jugador
 	@ManyToOne
-	@JoinColumn(name = "fk_jugador")
+	@JoinColumn(name="fk_jugador")
 	private Jugador jugador;
 
-	// bi-directional many-to-one association to Partido
+	//bi-directional many-to-one association to Partido
 	@ManyToOne
-	@JoinColumn(name = "fk_partido")
+	@JoinColumn(name="fk_partido")
 	private Partido partido;
 
 	public Lineapartido() {

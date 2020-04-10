@@ -34,7 +34,6 @@ public class PageJugador extends Base {
 	}
 
 	private void leerDatosJugador() {
-		asignarFechayLocalidad();
 		try{
 			jugador.setNombre(findElement(byNombre).getText());
 		}catch (Exception e) {
@@ -56,23 +55,7 @@ public class PageJugador extends Base {
 			jugador.setPuesto("");
 		}
 	}
+	
 
-	private void asignarFechayLocalidad() {
-		try {
-			String[] div = findElement(byFechaNacimiento).getText().split(" ");
-			jugador.setFechaNacimiento(dateFromString(div[0]));			
-			try {				
-				jugador.setCiudadNacimiento(div[1] + " " + div[2]);
-			} catch (Exception e) {
-
-			}
-		} catch (Exception e) {
-
-		}
-	}
-
-	private Date dateFromString(String txt) {
-		String[] div = txt.split("/");
-		return Date.valueOf(LocalDate.of(Integer.parseInt(div[2]), Integer.parseInt(div[1]), Integer.parseInt(div[0])));
-	}
+	
 }

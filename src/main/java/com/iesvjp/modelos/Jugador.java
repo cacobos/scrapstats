@@ -1,8 +1,6 @@
 package com.iesvjp.modelos;
 
 import java.io.Serializable;
-import java.sql.Date;
-
 import javax.persistence.*;
 import java.util.List;
 
@@ -12,30 +10,23 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name = "jugador")
 @NamedQuery(name="Jugador.findAll", query="SELECT j FROM Jugador j")
 public class Jugador implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
+	
+	private String url;
 
 	private String nombre;
 	
-	private String url;
-	
 	private String urlFoto;
-	
-	private Date fechaNacimiento;
-	
-	private String ciudadNacimiento;
 	
 	private String puesto;
 	
 	private int altura;
-	
-	
 
 	//bi-directional many-to-one association to Lineapartido
 	@OneToMany(mappedBy="jugador")
@@ -82,36 +73,12 @@ public class Jugador implements Serializable {
 		return lineapartido;
 	}
 
-	public String getUrl() {
-		return url;
-	}
-
-	public void setUrl(String url) {
-		this.url = url;
-	}
-
 	public String getUrlFoto() {
 		return urlFoto;
 	}
 
 	public void setUrlFoto(String urlFoto) {
 		this.urlFoto = urlFoto;
-	}
-
-	public Date getFechaNacimiento() {
-		return fechaNacimiento;
-	}
-
-	public void setFechaNacimiento(Date fechaNacimiento) {
-		this.fechaNacimiento = fechaNacimiento;
-	}
-
-	public String getCiudadNacimiento() {
-		return ciudadNacimiento;
-	}
-
-	public void setCiudadNacimiento(String ciudadNacimiento) {
-		this.ciudadNacimiento = ciudadNacimiento;
 	}
 
 	public String getPuesto() {
@@ -130,5 +97,14 @@ public class Jugador implements Serializable {
 		this.altura = altura;
 	}
 
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
 	
+	
+
 }

@@ -11,13 +11,12 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name = "partido")
 @NamedQuery(name="Partido.findAll", query="SELECT p FROM Partido p")
 public class Partido implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 
 	private int asLocal;
@@ -533,5 +532,5 @@ public class Partido implements Serializable {
 	public void setEquipo2(Equipo equipo2) {
 		this.equipo2 = equipo2;
 	}
-	
+
 }
