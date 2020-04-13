@@ -33,12 +33,7 @@ public class PageJugador extends Base {
 		driver.close();
 	}
 
-	private void leerDatosJugador() {
-		try{
-			jugador.setNombre(findElement(byNombre).getText());
-		}catch (Exception e) {
-			jugador.setNombre("");
-		}
+	private void leerDatosJugador() {		
 		try {
 			jugador.setUrlFoto(findElement(byfoto).getAttribute("src"));
 		}catch (Exception e) {

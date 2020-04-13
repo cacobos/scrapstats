@@ -10,12 +10,13 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 import com.iesvjp.modelos.Equipo;
 import com.iesvjp.modelos.Partido;
 import com.iesvjp.stats.Utilidades;
 
-public class PageEstadisticasOro extends Base {
+public class PageEstadisticasCategoria extends Base {
 
 	private By byNombresEquipos = By.cssSelector("#estadisticasMediasDataGrid a");
 
@@ -25,9 +26,9 @@ public class PageEstadisticasOro extends Base {
 	private Set<String> tabs;
 	private List<Equipo> equipos;
 
-	public PageEstadisticasOro(WebDriver driver) {
+	public PageEstadisticasCategoria(WebDriver driver) {
 		super(driver);
-		equipos=new ArrayList<Equipo>();
+		equipos = new ArrayList<Equipo>();
 	}
 
 	public void mostrarEquipos() {
@@ -35,36 +36,6 @@ public class PageEstadisticasOro extends Base {
 		for (int i = 0; i < equipos.size(); i++) {
 			System.out.println(equipos.get(i).getText());
 		}
-	}
-
-	/*public void getResultadosLebOro() {
-		List<WebElement> equipos = driver.findElements(byNombresEquipos);
-		for (int i = 0; i < equipos.size(); i++) {
-			Utilidades.abrirEnNewTab(driver, equipos.get(i));
-			if (isPageEquipo()) {
-				System.out.println(driver.findElement(byEnlaceResultados).getText());
-				driver.findElement(byEnlaceResultados).click();
-			}
-		}
-		tabs = driver.getWindowHandles();
-		iterarTabsGetResultados();
-	}*/
-
-	private void iterarTabsGetResultados() {
-		Iterator<String> it = tabs.iterator();
-		String tab;
-		while (it.hasNext()) {
-			tab = it.next();
-			driver.switchTo().window(tab);
-			if (isPageEquipo()) {
-				driver.findElement(byEnlaceResultados).click();
-			} else if (isPageResultados()) {
-				mostrarResultados();
-				driver.close();
-			}
-			
-		}
-		iterarTabsGetResultados();
 	}
 
 	private boolean isPageEquipo() {
@@ -75,48 +46,48 @@ public class PageEstadisticasOro extends Base {
 			return false;
 		}
 	}
-	
-public List<Equipo> getEquipos() {
-		List<WebElement> webElementsEquipos = driver.findElements(byNombresEquipos);
-		for (int i = 0; i < webElementsEquipos.size(); i++) {
-			Utilidades.abrirEnNewTab(driver, webElementsEquipos.get(i));
-			if (isPageEquipo()) {
-				driver.findElement(byEnlaceResultados).click();
+
+	public List<Equipo> getEquipos() {
+		WebElement dropdown = findElement(By.cssSelector("#fasesGruposDropDownList"));
+		Select selectFases = new Select(dropdown);
+		List<WebElement> optionsFases = selectFases.getOptions();
+		String oldTab = driver.getWindowHandle();
+		for (int i = 0; i < optionsFases.size(); i++) {
+		    driver.switchTo().window(oldTab);
+		    dropdown = findElement(By.cssSelector("#fasesGruposDropDownList"));
+			selectFases = new Select(dropdown);
+			selectFases.selectByIndex(i);
+			List<WebElement> webElementsEquipos = driver.findElements(byNombresEquipos);
+			for (int j = 0; j < webElementsEquipos.size(); j++) {
+				Utilidades.abrirEnNewTab(driver, webElementsEquipos.get(j));				
 			}
 		}
+
 		tabs = driver.getWindowHandles();
 		iterarTabsGetEquipos();
+		
 		return equipos;
 	}
 
 	private void iterarTabsGetEquipos() {
-		By byTemporada=By.cssSelector("#paginaTitulo_temporadaLabel");
-		By byCategoria=By.cssSelector("#paginaTitulo_ligaLabel");
-		By byNombreEquipo=By.cssSelector("#paginaTitulo_tituloLabel");
+		By byTemporada = By.cssSelector("#paginaTitulo_temporadaLabel");
+		By byCategoria = By.cssSelector("#paginaTitulo_ligaLabel");
+		By byNombreEquipo = By.cssSelector("#paginaTitulo_tituloLabel");
 		Iterator<String> it = tabs.iterator();
 		String tab;
 		while (it.hasNext()) {
 			tab = it.next();
 			driver.switchTo().window(tab);
 			if (isPageEquipo()) {
-				Equipo e=new Equipo();
+				Equipo e = new Equipo();
 				e.setCategoria(driver.findElement(byCategoria).getText());
 				e.setTemporada(driver.findElement(byTemporada).getText());
 				e.setNombre(driver.findElement(byNombreEquipo).getText());
-				e.setUrl(driver.getCurrentUrl());	
+				e.setUrl(driver.getCurrentUrl());
 				equipos.add(e);
 			}
 
 			driver.close();
-		}
-	}
-
-	private boolean isPageResultados() {
-		try {
-			driver.findElement(byTablaResultados);
-			return true;
-		} catch (Exception e) {
-			return false;
 		}
 	}
 

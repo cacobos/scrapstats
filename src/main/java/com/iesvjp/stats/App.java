@@ -12,7 +12,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.iesvjp.dom.PageEstadisticasOro;
+import com.iesvjp.dom.PageEstadisticasCategoria;
 import com.iesvjp.dom.PagePrincipal;
 import com.iesvjp.dom.PageResultadosEquipo;
 import com.iesvjp.modelos.Equipo;
@@ -27,8 +27,9 @@ public class App {
 
 	public static void main(String[] args) {
 		//Utilidades.guardarEquiposLebOro();
-		//Utilidades.guardarPartidosLebOro();
-		//Utilidades.guardarDatosPartidos();
+		//Utilidades.guardarEquiposLebPlata();
+		//Utilidades.guardarEquiposLF();
+		//Utilidades.guardarPartidos();
 		Utilidades.guardarDatosJugadores();
 	}
 }

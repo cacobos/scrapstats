@@ -42,13 +42,16 @@ public class PageResultadosEquipo extends Base{
 		partidos=new ArrayList<Partido>();
 		visit(urlEquipo);
 		click(byEnlaceResultados);
-		
+		String oldTab=driver.getWindowHandle();
 		
 		//Recorremos todas las opciones del desplegable de fases
 		WebElement desplegableFases=findElement(byDesplegablePartidos);
 		Select selectFases=new Select(desplegableFases);
 		List<WebElement> optionsFases=selectFases.getOptions();
 		for (int i = 0; i < optionsFases.size(); i++) {
+			driver.switchTo().window(oldTab);
+			desplegableFases=findElement(byDesplegablePartidos);
+			selectFases=new Select(desplegableFases);
 			selectFases.selectByIndex(i);
 			leerPartidosFase(em);
 		}	

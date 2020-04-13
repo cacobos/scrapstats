@@ -98,7 +98,6 @@ public class PagePartido extends Base {
 				.setParameter("nombre", nomEquipoVisitante).setParameter("temporada", temporada).getSingleResult();
 		Date fecha = dateFromString(findElement(byFecha).getText());
 		if (!estaCompletoPartido(em, equipoLocal, equipoVisitante, fecha)) {
-			
 
 			p.setEquipo1(equipoLocal);
 			p.setEquipo2(equipoVisitante);
@@ -106,7 +105,7 @@ public class PagePartido extends Base {
 			p.setCompeticion(findElement(byCompeticion).getText());
 			p.setTemporada(temporada);
 			p.setUrl(driver.getCurrentUrl());
-			
+
 			p.setPtoLocal(Integer.parseInt(findElement(byptosLocal).getText()));
 			p.setPtoVisit(Integer.parseInt(findElement(byptosVisitante).getText()));
 
@@ -120,37 +119,45 @@ public class PagePartido extends Base {
 			p.setPunt4qVisit(Integer.parseInt(findElement(by4qVisit).getText()));
 
 			p.setProrroga(findElements(By.cssSelector(".tablaResultadosCuartos tr:nth-child(2) td")).size() - 1);
+			try {
+				p.setT2aLocal(Integer.parseInt(getAciertos(findElement(byt2Local).getText())));
+				p.setT2iLocal(Integer.parseInt(getIntentos(findElement(byt2Local).getText())));
+				p.setT3aLocal(Integer.parseInt(getAciertos(findElement(byt3Local).getText())));
+				p.setT3iLocal(Integer.parseInt(getIntentos(findElement(byt3Local).getText())));
+				p.setTlaLocal(Integer.parseInt(getAciertos(findElement(bytlLocal).getText())));
+				p.setTliLocal(Integer.parseInt(getIntentos(findElement(bytlLocal).getText())));
+				p.setAsLocal(Integer.parseInt(findElement(byasLocal).getText()));
+				p.setBrLocal(Integer.parseInt(findElement(bybrLocal).getText()));
+				p.setBpLocal(Integer.parseInt(findElement(bybpLocal).getText()));
+				p.setFcLocal(Integer.parseInt(findElement(byfcLocal).getText()));
+				p.setFrLocal(Integer.parseInt(findElement(byfrLocal).getText()));
+				p.setValLocal(Integer.parseInt(findElement(byvalLocal).getText()));
+				p.setRbdLocal(Integer.parseInt(findElement(byrbdLocal).getText()));
+				p.setRboLocal(Integer.parseInt(findElement(byrboLocal).getText()));
 
-			p.setT2aLocal(Integer.parseInt(getAciertos(findElement(byt2Local).getText())));
-			p.setT2iLocal(Integer.parseInt(getIntentos(findElement(byt2Local).getText())));
-			p.setT3aLocal(Integer.parseInt(getAciertos(findElement(byt3Local).getText())));
-			p.setT3iLocal(Integer.parseInt(getIntentos(findElement(byt3Local).getText())));
-			p.setTlaLocal(Integer.parseInt(getAciertos(findElement(bytlLocal).getText())));
-			p.setTliLocal(Integer.parseInt(getIntentos(findElement(bytlLocal).getText())));
-			p.setAsLocal(Integer.parseInt(findElement(byasLocal).getText()));
-			p.setBrLocal(Integer.parseInt(findElement(bybrLocal).getText()));
-			p.setBpLocal(Integer.parseInt(findElement(bybpLocal).getText()));
-			p.setFcLocal(Integer.parseInt(findElement(byfcLocal).getText()));
-			p.setFrLocal(Integer.parseInt(findElement(byfrLocal).getText()));
-			p.setValLocal(Integer.parseInt(findElement(byvalLocal).getText()));
+				p.setT2aVisit(Integer.parseInt(getAciertos(findElement(byt2Visitante).getText())));
+				p.setT2iVisit(Integer.parseInt(getIntentos(findElement(byt2Visitante).getText())));
+				p.setT3aVisit(Integer.parseInt(getAciertos(findElement(byt3Visitante).getText())));
+				p.setT3iVisit(Integer.parseInt(getIntentos(findElement(byt3Visitante).getText())));
+				p.setTlaVisit(Integer.parseInt(getAciertos(findElement(bytlVisitante).getText())));
+				p.setTliVisit(Integer.parseInt(getIntentos(findElement(bytlVisitante).getText())));
+				p.setAsVisit(Integer.parseInt(findElement(byasVisitante).getText()));
+				p.setBrVisit(Integer.parseInt(findElement(bybrVisitante).getText()));
+				p.setBpVisit(Integer.parseInt(findElement(bybpVisitante).getText()));
+				p.setFcVisit(Integer.parseInt(findElement(byfcVisitante).getText()));
+				p.setFrVisit(Integer.parseInt(findElement(byfrVisitante).getText()));
+				p.setValVisit(Integer.parseInt(findElement(byvalVisitante).getText()));
 
-			p.setT2aVisit(Integer.parseInt(getAciertos(findElement(byt2Visitante).getText())));
-			p.setT2iVisit(Integer.parseInt(getIntentos(findElement(byt2Visitante).getText())));
-			p.setT3aVisit(Integer.parseInt(getAciertos(findElement(byt3Visitante).getText())));
-			p.setT3iVisit(Integer.parseInt(getIntentos(findElement(byt3Visitante).getText())));
-			p.setTlaVisit(Integer.parseInt(getAciertos(findElement(bytlVisitante).getText())));
-			p.setTliVisit(Integer.parseInt(getIntentos(findElement(bytlVisitante).getText())));
-			p.setAsVisit(Integer.parseInt(findElement(byasVisitante).getText()));
-			p.setBrVisit(Integer.parseInt(findElement(bybrVisitante).getText()));
-			p.setBpVisit(Integer.parseInt(findElement(bybpVisitante).getText()));
-			p.setFcVisit(Integer.parseInt(findElement(byfcVisitante).getText()));
-			p.setFrVisit(Integer.parseInt(findElement(byfrVisitante).getText()));
-			p.setValVisit(Integer.parseInt(findElement(byvalVisitante).getText()));
+				p.setRbdVisit(Integer.parseInt(findElement(byrbdVisitante).getText()));
+				p.setRboVisit(Integer.parseInt(findElement(byrboVisitante).getText()));
 
-			persistirLineas(em, equipoLocal, equipoVisitante, p);
+				persistirLineas(em, equipoLocal, equipoVisitante, p);
 
-			em.getTransaction().commit();
-			em.getTransaction().begin();
+				em.getTransaction().commit();
+				em.getTransaction().begin();
+			} catch (Exception e) {
+
+			}
 		}
 	}
 
@@ -175,6 +182,7 @@ public class PagePartido extends Base {
 		} else {
 			jug = new Jugador();
 			jug.setUrl(urlJug);
+			jug.setNombre(linea.findElement(byNombreJugador).getText());
 			em.persist(jug);
 		}
 		lineaPartido.setEquipo(equipo);
