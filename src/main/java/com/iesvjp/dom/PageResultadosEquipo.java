@@ -88,7 +88,8 @@ public class PageResultadosEquipo extends Base{
 		return Date.valueOf(LocalDate.of(Integer.parseInt(div[2]), Integer.parseInt(div[1]),Integer.parseInt(div[0])));
 	}
 
-	private boolean existePartido(EntityManager em, String url) {		
+	private boolean existePartido(EntityManager em, String url) {
+		System.out.println(url);
 		return (long)em.createQuery("select count(p) from Partido p where p.url = :url").setParameter("url", url).getSingleResult()>0;
 	}	
 

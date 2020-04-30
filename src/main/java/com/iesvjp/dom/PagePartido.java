@@ -192,11 +192,11 @@ public class PagePartido extends Base {
 			lineaPartido.setMinutos(timeFromString(linea.findElement(byMinutosJugador).getText()));
 			lineaPartido.setPuntos(Integer.parseInt(linea.findElement(byPuntosJugador).getText()));
 			lineaPartido.setT2a(Integer.parseInt(getAciertos(linea.findElement(byt2Jugador).getText())));
-			lineaPartido.setT2i(Integer.parseInt(getAciertos(linea.findElement(byt2Jugador).getText())));
+			lineaPartido.setT2i(Integer.parseInt(getIntentos(linea.findElement(byt2Jugador).getText())));
 			lineaPartido.setT3a(Integer.parseInt(getAciertos(linea.findElement(byt3Jugador).getText())));
-			lineaPartido.setT3i(Integer.parseInt(getAciertos(linea.findElement(byt3Jugador).getText())));
+			lineaPartido.setT3i(Integer.parseInt(getIntentos(linea.findElement(byt3Jugador).getText())));
 			lineaPartido.setTla(Integer.parseInt(getAciertos(linea.findElement(bytlJugador).getText())));
-			lineaPartido.setTli(Integer.parseInt(getAciertos(linea.findElement(bytlJugador).getText())));
+			lineaPartido.setTli(Integer.parseInt(getIntentos(linea.findElement(bytlJugador).getText())));
 			lineaPartido.setRbd(Integer.parseInt(linea.findElement(byrbdJugador).getText()));
 			lineaPartido.setRbo(Integer.parseInt(linea.findElement(byrboJugador).getText()));
 			lineaPartido.setAsist(Integer.parseInt(linea.findElement(byasJugador).getText()));

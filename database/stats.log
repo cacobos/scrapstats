@@ -1,0 +1,2276 @@
+/*C8*/SET SCHEMA PUBLIC
+DELETE FROM JUGADOR WHERE ID=638
+INSERT INTO JUGADOR VALUES(638,201,'NIKOLIC, MILAN','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=2217254&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217254')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=640
+INSERT INTO JUGADOR VALUES(640,203,'JANKOVIC, KOSTA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=2377392&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377392')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=642
+INSERT INTO JUGADOR VALUES(642,190,'ZUBIZARRETA ARANBARRI, AITOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1749125&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1749125')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=644
+INSERT INTO JUGADOR VALUES(644,0,'PEDERSEN, ALF SYLVESTER BERG','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=2371569&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=646
+INSERT INTO JUGADOR VALUES(646,186,'VENTURA PEDRE\u00d1O, FERRAN','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1429448&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1429448')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=648
+INSERT INTO JUGADOR VALUES(648,206,'JOSEPH, ARKEEM','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=2373304&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373304')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=650
+INSERT INTO JUGADOR VALUES(650,191,'RAKOCEVIC, NIKOLA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1512091&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1512091')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=652
+INSERT INTO JUGADOR VALUES(652,206,'KUIPER, JORDY','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=2377393&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377393')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=654
+INSERT INTO JUGADOR VALUES(654,193,'PAREJO CAMACHO, LUIS MARIA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=718637&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=718637')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=656
+INSERT INTO JUGADOR VALUES(656,205,'BILBAO TORRONTEGUI, JORGE ALAIN','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1680859&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1680859')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=658
+INSERT INTO JUGADOR VALUES(658,183,'CORTS VALDIVIA, CARLOS','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1538905&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1538905')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=660
+INSERT INTO JUGADOR VALUES(660,0,'BORTOLUSSI SALUZZO, ALEJANDRO DANIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1870142&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=662
+INSERT INTO JUGADOR VALUES(662,184,'PEREZ TOMAS, JOSEP','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1213957&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1213957')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=664
+INSERT INTO JUGADOR VALUES(664,192,'RODRIGUEZ BARRIENTOS, MANUEL','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1376540&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1376540')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=666
+INSERT INTO JUGADOR VALUES(666,202,'RUBIO VERGARA, GUILLERMO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1055655&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1055655')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=668
+INSERT INTO JUGADOR VALUES(668,202,'PARDINA MOLINA, JOAN','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1950468&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1950468')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=670
+INSERT INTO JUGADOR VALUES(670,193,'COBOS ORTEGA, CARLOS','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=200074&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=200074')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=672
+INSERT INTO JUGADOR VALUES(672,210,'WATSON, EARL OVREL','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=2325348&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325348')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=674
+INSERT INTO JUGADOR VALUES(674,213,'OLMOS PARDO, SERGIO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1084970&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1084970')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=676
+INSERT INTO JUGADOR VALUES(676,198,'KAPELAN, DIEGO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=2159234&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2159234')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=684
+INSERT INTO JUGADOR VALUES(684,199,'ORELLANO MORENO, JUAN MART\u00cdN','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=1817389&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1817389')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=697
+INSERT INTO JUGADOR VALUES(697,183,'DEE, JOHN ANDREW','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2335633&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335633')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=699
+INSERT INTO JUGADOR VALUES(699,203,'MURPHY, ALEX JAMES','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2371548&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371548')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=701
+INSERT INTO JUGADOR VALUES(701,201,'MUTIC, LAZAR','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2027203&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2027203')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=703
+INSERT INTO JUGADOR VALUES(703,194,'OROZ URIA, XABIER','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=1750421&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1750421')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=705
+INSERT INTO JUGADOR VALUES(705,203,'JAWARA, KARAMO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2277741&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2277741')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=707
+INSERT INTO JUGADOR VALUES(707,194,'MOTOS CABODEVILLA, MIKEL','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=1447983&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1447983')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=709
+INSERT INTO JUGADOR VALUES(709,182,'URIZ ANCIZU, MIKEL','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=1182067&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1182067')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=711
+INSERT INTO JUGADOR VALUES(711,185,'TIMMER, REED DONALD','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2371547&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371547')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=713
+INSERT INTO JUGADOR VALUES(713,202,'OLAIZOLA GONZALEZ, JULEN IMANOL','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=1558447&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1558447')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=715
+INSERT INTO JUGADOR VALUES(715,213,'ROZITIS, DAVIS','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2288946&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2288946')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=717
+INSERT INTO JUGADOR VALUES(717,208,'FAYE, BIRAM','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2108428&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2108428')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=719
+INSERT INTO JUGADOR VALUES(719,193,'SOLLAZZO, ADAM MICHAEL','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2371546&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371546')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=721
+INSERT INTO JUGADOR VALUES(721,201,'GRYSTAK, ANDRIY','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=2365678&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2365678')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=723
+INSERT INTO JUGADOR VALUES(723,189,'CARTER III, OLIN RAY','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=2371573&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371573')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=725
+INSERT INTO JUGADOR VALUES(725,177,'CARDENAS MALDONADO, FRANCISCO JAVIER','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=1112380&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1112380')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=727
+INSERT INTO JUGADOR VALUES(727,182,'GARCIA GARCIA, DANIEL','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=1929666&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1929666')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=729
+INSERT INTO JUGADOR VALUES(729,200,'DE BLAS MORCILLO, DIEGO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=1872402&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1872402')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=731
+INSERT INTO JUGADOR VALUES(731,203,'URDIAIN LABAYEN, ANDER','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=1593686&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1593686')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=733
+INSERT INTO JUGADOR VALUES(733,208,'GRABAUSKAS, ROBERTAS','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=2250396&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2250396')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=735
+INSERT INTO JUGADOR VALUES(735,203,'DEDOVIC, NEDIM','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=1923144&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1923144')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=737
+INSERT INTO JUGADOR VALUES(737,0,'GARCIA ALVAREZ, BERNARDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=1286407&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=739
+INSERT INTO JUGADOR VALUES(739,203,'SKARA, DAVID','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=2371574&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371574')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=741
+INSERT INTO JUGADOR VALUES(741,207,'VUCETIC, VASILIJE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=2217440&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217440')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=743
+INSERT INTO JUGADOR VALUES(743,194,'TAMAYO LESMES, ALEX','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=1627889&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1627889')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=763
+INSERT INTO JUGADOR VALUES(763,206,'BLACKWELL, PERRIS ASHTON','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2378973&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2378973')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=765
+INSERT INTO JUGADOR VALUES(765,196,'DJURAN, FILIP','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2277618&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2277618')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=767
+INSERT INTO JUGADOR VALUES(767,207,'BULIC, MIRZA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2158313&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158313')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=769
+INSERT INTO JUGADOR VALUES(769,200,'MARTINEZ PARDO, CARLOS','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=1463483&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1463483')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=771
+INSERT INTO JUGADOR VALUES(771,196,'KAMBA, MATHIEU NKONGOLO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2335999&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335999')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=773
+INSERT INTO JUGADOR VALUES(773,191,'MAIZA APECECHEA, GAIZKA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=1822814&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1822814')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=775
+INSERT INTO JUGADOR VALUES(775,192,'PECIUKEVICIUS, AUGUSTAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2158326&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158326')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=777
+INSERT INTO JUGADOR VALUES(777,204,'SMITH GARCIA, SEAN','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=1437961&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1437961')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=779
+INSERT INTO JUGADOR VALUES(779,186,'XAVIER, JEFFREY NUNES','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2377378&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377378')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=781
+INSERT INTO JUGADOR VALUES(781,208,'GREEN, ANTHONY SOLOMON','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2373397&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373397')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=783
+INSERT INTO JUGADOR VALUES(783,187,'FERREIRO COSTAS, PABLO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=1461646&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1461646')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=787
+INSERT INTO JUGADOR VALUES(787,0,'CARROLL, JOHN PAUL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=2381676&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2381676')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=796
+INSERT INTO JUGADOR VALUES(796,180,'MARTIN MARIN, ALBERTO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=1384223&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1384223')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=798
+INSERT INTO JUGADOR VALUES(798,190,'CORVALAN, FACUNDO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=2373499&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373499')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=800
+INSERT INTO JUGADOR VALUES(800,201,'LUNDQVIST, KARL OLLE VIKTOR','Bae','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=2351939&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2351939')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=802
+INSERT INTO JUGADOR VALUES(802,192,'LOBO HERRERO, ALVARO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=1223934&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1223934')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=804
+INSERT INTO JUGADOR VALUES(804,207,'GIL NARBON, JOSE MARIA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=1564299&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1564299')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=806
+INSERT INTO JUGADOR VALUES(806,199,'MARTINEZ DE LA ORDEN, ANDER','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=1432499&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1432499')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=808
+INSERT INTO JUGADOR VALUES(808,208,'SCHAFTENAAR, OLAF FLORIS','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=1869667&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1869667')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=810
+INSERT INTO JUGADOR VALUES(810,190,'RUIZ MERINO, GUILLERMO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=1305531&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1305531')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=812
+INSERT INTO JUGADOR VALUES(812,208,'KABASELE, HERVE KASONGA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=2283555&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2283555')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=814
+INSERT INTO JUGADOR VALUES(814,206,'SEIBRING, TYLER LAWRENCE','Ala p\u00edvor','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=2373498&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373498')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=816
+INSERT INTO JUGADOR VALUES(816,190,'LUKE, AUSTIN WADE','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2378449&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2378449')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=818
+INSERT INTO JUGADOR VALUES(818,193,'AGADA, CALEB APOCHI','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2274811&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274811')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=820
+INSERT INTO JUGADOR VALUES(820,193,'MARIN ORTEGA, JAVIER','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=1356913&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1356913')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=822
+INSERT INTO JUGADOR VALUES(822,204,'UCLES BELMONTE, FEDERICO','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=1198438&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1198438')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=824
+INSERT INTO JUGADOR VALUES(824,207,'WITLINSKI, MIKOLAJ','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2373249&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373249')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=826
+INSERT INTO JUGADOR VALUES(826,200,'MATULIONIS, OSVALDAS','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2027826&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2027826')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=828
+INSERT INTO JUGADOR VALUES(828,216,'HARTWICH, PHILIPP','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2335492&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335492')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=830
+INSERT INTO JUGADOR VALUES(830,203,'SIDIBE, AMADOU','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2274900&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274900')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=832
+INSERT INTO JUGADOR VALUES(832,194,'MISTERS, ANDRIS','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2373248&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373248')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=834
+INSERT INTO JUGADOR VALUES(834,178,'CUEVAS SIMARRO, DIDAC','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=1569218&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1569218')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=848
+INSERT INTO JUGADOR VALUES(848,0,'YUBERO ROSALES, SERGIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=2036518&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=855
+INSERT INTO JUGADOR VALUES(855,196,'BROPLEH, THOMAS','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2335874&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335874')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=857
+INSERT INTO JUGADOR VALUES(857,189,'BIVIA MU\u00d1OZ, JOAN CARLES','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=1408550&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1408550')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=859
+INSERT INTO JUGADOR VALUES(859,205,'OLUMUYIWA, BABATUNDE EDWARD','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2158227&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158227')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=861
+INSERT INTO JUGADOR VALUES(861,206,'LINDQVIST, ALEXANDER ROBIN ANDERS','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2373219&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373219')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=863
+INSERT INTO JUGADOR VALUES(863,207,'GONZALEZ CALVO, JOSE MARIA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=1382607&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1382607')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=865
+INSERT INTO JUGADOR VALUES(865,199,'LOFBERG, JOHAN JERKER','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2375877&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375877')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=867
+INSERT INTO JUGADOR VALUES(867,205,'BARAC, BORIS','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2352101&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2352101')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=869
+INSERT INTO JUGADOR VALUES(869,193,'BERTONE, PABLO CESAR','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2092518&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2092518')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=871
+INSERT INTO JUGADOR VALUES(871,190,'HERNANDEZ MAIQUEZ, ALEJANDRO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=1046567&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1046567')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=873
+INSERT INTO JUGADOR VALUES(873,0,'REY SANUY, XAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=1052175&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1052175')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=875
+INSERT INTO JUGADOR VALUES(875,0,'GAVRILOVIC, STRAHINJA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2382210&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2382210')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=877
+INSERT INTO JUGADOR VALUES(877,196,'MORAYONINUOLUWA CHUKWUEMEKA, SOLUADE','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=1884387&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1884387')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=879
+INSERT INTO JUGADOR VALUES(879,193,'SANCHEZ PEREZ, MATEO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=1721414&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1721414')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=881
+INSERT INTO JUGADOR VALUES(881,187,'AHONEN, ROOPE ALEKSI','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2275169&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2275169')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=883
+INSERT INTO JUGADOR VALUES(883,0,'RIVAS DIAZ, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=1692875&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=885
+INSERT INTO JUGADOR VALUES(885,196,'ARCO FRIAS, JOSE SALVADOR','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=51251&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=51251')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=887
+INSERT INTO JUGADOR VALUES(887,0,'JANUSEVICIUS, TITAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2282569&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=889
+INSERT INTO JUGADOR VALUES(889,208,'NURGER, RAUNO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2335052&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335052')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=891
+INSERT INTO JUGADOR VALUES(891,184,'DIAZ RODRIGUEZ, CHRISTIAN','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=1251001&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1251001')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=893
+INSERT INTO JUGADOR VALUES(893,213,'OLAH, ALEXANDRU LUCIAN','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2373380&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373380')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=895
+INSERT INTO JUGADOR VALUES(895,208,'FALL, MASSINE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2028104&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2028104')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=897
+INSERT INTO JUGADOR VALUES(897,185,'QUINTELA SALVADOR, SERGIO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2220063&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2220063')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=901
+INSERT INTO JUGADOR VALUES(901,208,'TONCINIC, FILIP','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=2158324&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158324')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=903
+INSERT INTO JUGADOR VALUES(903,0,'CASTRO LOMBOS, PABLO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=1608525&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=919
+INSERT INTO JUGADOR VALUES(919,184,'ALVARADO RODRIGUEZ, OSCAR MIGUEL','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=1250976&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1250976')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=921
+INSERT INTO JUGADOR VALUES(921,193,'WOOD, CONNOR JOHN','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=2373221&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373221')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=923
+INSERT INTO JUGADOR VALUES(923,186,'FIGUERAS LOPEZ, POL','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=1496030&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1496030')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=925
+INSERT INTO JUGADOR VALUES(925,211,'BALABAN, DARKO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=2325235&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325235')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=927
+INSERT INTO JUGADOR VALUES(927,202,'MARTINEZ BALMASEDA, EDUARDO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=1105280&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1105280')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=929
+INSERT INTO JUGADOR VALUES(929,201,'TSHIKAYA, TSHANI THOMAS','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=2371572&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371572')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=931
+INSERT INTO JUGADOR VALUES(931,188,'OTT, ALFREDO JOSEPH','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=1583084&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1583084')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=933
+INSERT INTO JUGADOR VALUES(933,203,'VAN WIJK, KEVIN','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=2028890&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2028890')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=935
+INSERT INTO JUGADOR VALUES(935,190,'PLUTA, ANDREZJ MATEUSZ','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=2336202&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2336202')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=937
+INSERT INTO JUGADOR VALUES(937,192,'CHAPELA LAGE, ADRIAN','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=1197937&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1197937')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=939
+INSERT INTO JUGADOR VALUES(939,195,'SIERRA GALA, FERNANDO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=1426608&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1426608')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=941
+INSERT INTO JUGADOR VALUES(941,198,'FELIU BADAL, MIGUEL','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=275212&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=275212')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=943
+INSERT INTO JUGADOR VALUES(943,208,'MBAYE, PAPA ABDOULAYE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=2028757&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2028757')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=945
+INSERT INTO JUGADOR VALUES(945,193,'SANTA ANA JR, STEVEN RAUL','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=2371559&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371559')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=947
+INSERT INTO JUGADOR VALUES(947,204,'MARTI ROIG, MARC','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=1941607&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1941607')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=949
+INSERT INTO JUGADOR VALUES(949,194,'SANS VALLS, AGUSTI','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=1322135&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1322135')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=951
+INSERT INTO JUGADOR VALUES(951,180,'LAFUENTE SISO, ALBERT','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=1494619&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1494619')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=953
+INSERT INTO JUGADOR VALUES(953,206,'CLEARE, SHAQUILLE O''NEAL','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=2351947&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2351947')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=955
+INSERT INTO JUGADOR VALUES(955,213,'STUTZ, FREDERIC GEORGE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=2325314&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325314')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=976
+INSERT INTO JUGADOR VALUES(976,188,'VARAJAO LEAL CARDOSO, MIGUEL MARIA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=2144297&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2144297')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=978
+INSERT INTO JUGADOR VALUES(978,201,'MAXWELL, STEPHEN BRECK','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=2377719&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377719')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=980
+INSERT INTO JUGADOR VALUES(980,185,'BLAT BAEZA, GERARD','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=1394852&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1394852')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=982
+INSERT INTO JUGADOR VALUES(982,191,'HUERTAS NAVAJAS, RAFAEL','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=450347&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=450347')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=984
+INSERT INTO JUGADOR VALUES(984,199,'SANTONJA FERRERO, JOSE','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=1364802&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1364802')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=986
+INSERT INTO JUGADOR VALUES(986,213,'ROWLE, KYLE CHRISTIAN','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=2377453&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377453')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=988
+INSERT INTO JUGADOR VALUES(988,203,'CVETINOVIC, NIKOLA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=2048507&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2048507')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=990
+INSERT INTO JUGADOR VALUES(990,197,'GRAHAM BELL, ROWELL ANTON','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=2092557&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2092557')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=992
+INSERT INTO JUGADOR VALUES(992,192,'GONZALEZ ALBADALEJO, JOSE LUIS','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=1603635&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1603635')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=994
+INSERT INTO JUGADOR VALUES(994,203,'GILLING, JONATHAN','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=2335370&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335370')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=996
+INSERT INTO JUGADOR VALUES(996,185,'HARRIS II, ROBERT MICHAEL','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=2364397&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364397')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=998
+INSERT INTO JUGADOR VALUES(998,188,'WADE CHATMAN, HENRI RAUNALDO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=2216932&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2216932')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1000
+INSERT INTO JUGADOR VALUES(1000,208,'VAN ZEGEREN, JOHAN WILLEM','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=2335179&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335179')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1002
+INSERT INTO JUGADOR VALUES(1002,199,'PUERTO GUAITA, JOSEP','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=1685516&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1685516')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1004
+INSERT INTO JUGADOR VALUES(1004,193,'BAS MARI, ROMA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=1059819&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1059819')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1006
+INSERT INTO JUGADOR VALUES(1006,174,'FANER CATALA, JOAN','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=273780&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=273780')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1008
+INSERT INTO JUGADOR VALUES(1008,191,'GARCIA FLORES, JOSE MARIA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=1840753&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1840753')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1010
+INSERT INTO JUGADOR VALUES(1010,207,'ROSA POMPIDO, IGNACIO','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=1535344&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1535344')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1012
+INSERT INTO JUGADOR VALUES(1012,196,'DUKANOVIC, BRANO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=2274919&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274919')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1014
+INSERT INTO JUGADOR VALUES(1014,201,'GARCIA RODRIGUEZ, JUAN JOSE','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=1425351&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1425351')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1036
+INSERT INTO JUGADOR VALUES(1036,191,'SANZ RODRIGUEZ, JORGE','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1382474&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1382474')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1038
+INSERT INTO JUGADOR VALUES(1038,192,'GEKS, DAVIS','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=2275679&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2275679')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1040
+INSERT INTO JUGADOR VALUES(1040,202,'REYES ABAD, ALEJANDRO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1319501&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1319501')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1042
+INSERT INTO JUGADOR VALUES(1042,194,'PEREZ RAMOS, VICTOR MANUEL','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=751591&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=751591')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1044
+INSERT INTO JUGADOR VALUES(1044,185,'LLORENTE PAZ, SERGIO ANTONIO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1381662&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1381662')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1046
+INSERT INTO JUGADOR VALUES(1046,209,'ARTEAGA PADRON, OLIVER','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1050435&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1050435')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1048
+INSERT INTO JUGADOR VALUES(1048,203,'JAKSTAS, ROLANDAS','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=2092694&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2092694')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1050
+INSERT INTO JUGADOR VALUES(1050,201,'WRIGHT RODRIGUEZ, DEVIN NOEL','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1169951&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1169951')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1052
+INSERT INTO JUGADOR VALUES(1052,0,'RODRIGUEZ MONTON, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1652229&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1054
+INSERT INTO JUGADOR VALUES(1054,198,'BLAZQUEZ LOPEZ, JOSE ANTONIO','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1477771&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1477771')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1056
+INSERT INTO JUGADOR VALUES(1056,0,'ARIAS GARCIA, SERGIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1978555&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1058
+INSERT INTO JUGADOR VALUES(1058,196,'BADER, RICHARD TRAVIS','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=2371554&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371554')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1060
+INSERT INTO JUGADOR VALUES(1060,188,'JORGENSEN, PAUL ANDERS','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=2371535&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371535')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1062
+INSERT INTO JUGADOR VALUES(1062,193,'VECVAGARS, KASPARS','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=2380687&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2380687')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1064
+INSERT INTO JUGADOR VALUES(1064,204,'PRADILLA GAYAN, JAIME','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=1691807&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1691807')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1066
+INSERT INTO JUGADOR VALUES(1066,191,'ANTUNEZ SACRISTAN, LUCAS','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=2335425&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335425')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1068
+INSERT INTO JUGADOR VALUES(1068,208,'LARSEN, KEVIN','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=2325521&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325521')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1070
+INSERT INTO JUGADOR VALUES(1070,218,'DOS ANJOS DE PAULA, FELIPE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=2219665&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2219665')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1072
+INSERT INTO JUGADOR VALUES(1072,196,'GRIMAU GRAGERA, JORDI','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=414682&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=414682')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1074
+INSERT INTO JUGADOR VALUES(1074,204,'KACINAS, MINDAUGAS','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=2371555&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371555')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1076
+INSERT INTO JUGADOR VALUES(1076,182,'RODRIGUEZ GARCIA, DANIEL','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=833262&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=833262')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1078
+INSERT INTO JUGADOR VALUES(1078,202,'JASAITIS, SIMAS','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817569&c=1583923&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1583923')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1101
+INSERT INTO JUGADOR VALUES(1101,178,'PITTS, JUSTIN JAMES','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=2338790&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2338790')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1103
+INSERT INTO JUGADOR VALUES(1103,201,'BUSQUETS COSTA, JOSEP','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=1893866&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1893866')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1105
+INSERT INTO JUGADOR VALUES(1105,190,'ORTEGA SORIANO, JOSE FRANCISCO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=1441736&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1441736')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1107
+INSERT INTO JUGADOR VALUES(1107,193,'ARCOS GONZALEZ, GUILLEM','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=1794663&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1794663')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1109
+INSERT INTO JUGADOR VALUES(1109,192,'LLOMPART USON, PEDRO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=501568&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=501568')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1111
+INSERT INTO JUGADOR VALUES(1111,212,'MENDIOLA DIEZ, SERGIO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=1677592&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1677592')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1113
+INSERT INTO JUGADOR VALUES(1113,203,'D\u00cdAZ FERN\u00c1NDEZ, IGNACIO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=237053&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=237053')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1115
+INSERT INTO JUGADOR VALUES(1115,201,'ONWENU, PATRICK NNAEMEKA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=2344936&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2344936')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1117
+INSERT INTO JUGADOR VALUES(1117,215,'FALL, CHEIKH AHMADOU BAMBA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=2373314&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373314')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1119
+INSERT INTO JUGADOR VALUES(1119,195,'SCHMIDT, DEVIN','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=2274745&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274745')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1121
+INSERT INTO JUGADOR VALUES(1121,208,'THIAM, ISSA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=1796615&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1796615')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1123
+INSERT INTO JUGADOR VALUES(1123,207,'GALAN POZO, ALEJANDRO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=1836771&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1836771')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1132
+INSERT INTO JUGADOR VALUES(1132,183,'NIANG, SANGONE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=2217550&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217550')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1141
+INSERT INTO JUGADOR VALUES(1141,197,'EXPOSITO FORTUNY, GUIM','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816633&c=2016289&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2016289')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1149
+INSERT INTO JUGADOR VALUES(1149,187,'URIZ ANCIZU, RICARDO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=989598&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=989598')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1180
+INSERT INTO JUGADOR VALUES(1180,193,'MARIN ORTEGA, ALEJANDRO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1086474&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1086474')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1184
+INSERT INTO JUGADOR VALUES(1184,205,'IRIARTE URDIAIN, DAVID','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=1311320&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1311320')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1191
+INSERT INTO JUGADOR VALUES(1191,0,'BRUGGEMAN, RYAN DOUGLAS RAYMOND','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2391647&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391647')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1223
+INSERT INTO JUGADOR VALUES(1223,183,'WINTERING, ALEC MARTIN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=2276415&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2276415')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1240
+INSERT INTO JUGADOR VALUES(1240,201,'HAMILTON, ASHLEY GEORGE PLUMMER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=1509777&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1509777')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1243
+INSERT INTO JUGADOR VALUES(1243,192,'LLORCA CASTILLO, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=1938487&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1938487')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1245
+INSERT INTO JUGADOR VALUES(1245,212,'THIAM, ABDOU','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2164262&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2164262')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1250
+INSERT INTO JUGADOR VALUES(1250,205,'SIKIRAS, NJEGOS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=2254577&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2254577')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1254
+INSERT INTO JUGADOR VALUES(1254,193,'SANCHEZ PEREZ, MATEO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817782&c=1721414&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1721414')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1262
+INSERT INTO JUGADOR VALUES(1262,0,'HOLMES, JONATHAN ALEXANDER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=2231581&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2231581')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1270
+INSERT INTO JUGADOR VALUES(1270,194,'KULLAMAE, KRISTIAN','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=2373308&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373308')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1287
+INSERT INTO JUGADOR VALUES(1287,203,'GATELL SANZ, EDUARD','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=361567&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=361567')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1293
+INSERT INTO JUGADOR VALUES(1293,175,'KINOSHITA, ISAO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=2159877&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2159877')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1298
+INSERT INTO JUGADOR VALUES(1298,198,'PE\u00d1A RINCON, DAGOBERTO MIGUEL','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2188381&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2188381')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1300
+INSERT INTO JUGADOR VALUES(1300,203,'DE THAEY, THOMAS','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2377385&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377385')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1303
+INSERT INTO JUGADOR VALUES(1303,205,'NOGUES JARNE, JOSE IGNACIO','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=1660664&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1660664')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1322
+INSERT INTO JUGADOR VALUES(1322,194,'OLAFSSON, GUNNAR','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=2373727&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373727')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1324
+INSERT INTO JUGADOR VALUES(1324,190,'COGGINS, TRENTON COLE','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=2274860&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274860')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1327
+INSERT INTO JUGADOR VALUES(1327,202,'NUUTINEN, MATTI EEMELI','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=2335180&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335180')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1331
+INSERT INTO JUGADOR VALUES(1331,197,'EXPOSITO FORTUNY, GUIM','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=2016289&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2016289')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1484
+INSERT INTO JUGADOR VALUES(1484,0,'JIMENEZ LAHOZ, JUAN JOSE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=1820655&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1523
+INSERT INTO JUGADOR VALUES(1523,202,'TOMAS NOGUERA, JOAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=1082339&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1082339')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1527
+INSERT INTO JUGADOR VALUES(1527,186,'QUINTELA SALVADOR, ERIK','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2277758&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2277758')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1540
+INSERT INTO JUGADOR VALUES(1540,0,'POWELL, MARSHAWN DEVA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2389848&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2389848')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1577
+INSERT INTO JUGADOR VALUES(1577,212,'SERRANO MARIVELA, VICTOR MANUEL','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=1120504&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1120504')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1733
+INSERT INTO JUGADOR VALUES(1733,0,'SALVADOR DEL AGUILA, FRANCISCO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1758807&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1758807')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1751
+INSERT INTO JUGADOR VALUES(1751,0,'BROWN, ELIJAH ANTHONY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817781&c=2415159&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2415159')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1772
+INSERT INTO JUGADOR VALUES(1772,0,'RILEY, MYKAL REGINALD','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816632&c=2408953&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2408953')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1787
+INSERT INTO JUGADOR VALUES(1787,202,'VAZQUEZ GIL, MANUEL','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=1358232&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1358232')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=1868
+INSERT INTO JUGADOR VALUES(1868,0,'OKOROH, KINGSLEY UZOCHUKWU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816891&c=2336040&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2010
+INSERT INTO JUGADOR VALUES(2010,194,'BALLESPIN DE LA PE\u00d1A, IGNACIO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=1676153&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1676153')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2016
+INSERT INTO JUGADOR VALUES(2016,207,'BULIC, MIRZA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2158313&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158313')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2081
+INSERT INTO JUGADOR VALUES(2081,209,'DIENE, PA MOR','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=2158653&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158653')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2100
+INSERT INTO JUGADOR VALUES(2100,0,'SIMA FATTY, YANKUBA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=1399509&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1399509')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2205
+INSERT INTO JUGADOR VALUES(2205,0,'GILCHRIST, ROBERT CHARLES','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816633&c=2254361&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2254361')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2218
+INSERT INTO JUGADOR VALUES(2218,193,'URTASUN URIZ, JOSE MIGUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817779&c=990482&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=990482')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2233
+INSERT INTO JUGADOR VALUES(2233,183,'GARCIA ALVAREZ, BERNARDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1286407&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1286407')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2501
+INSERT INTO JUGADOR VALUES(2501,0,'MOLINA LORENZ, JOAQUIN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816750&c=1889536&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2515
+INSERT INTO JUGADOR VALUES(2515,208,'STAINBROOK, MATTHEW HARRISON','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817758&c=2230223&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2230223')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2719
+INSERT INTO JUGADOR VALUES(2719,0,'CHAC\u00d3N FERN\u00c1NDEZ, EDUARDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1712338&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2761
+INSERT INTO JUGADOR VALUES(2761,196,'CAREY, MICHAEL CAMERON','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=1987248&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1987248')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2923
+INSERT INTO JUGADOR VALUES(2923,0,'SANTOS RODR\u00cdGUEZ, JUAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=2072778&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2925
+INSERT INTO JUGADOR VALUES(2925,0,'USO ESTRELLA, ADRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817600&c=1712011&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=2948
+INSERT INTO JUGADOR VALUES(2948,183,'NIANG, SANGONE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816690&c=2217550&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217550')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3019
+INSERT INTO JUGADOR VALUES(3019,202,'BELEMENE DZABATOU, JUDICAEL ROMARIC','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=1890104&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1890104')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3037
+INSERT INTO JUGADOR VALUES(3037,0,'KOYANOUBA, EDMOND','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817372&c=2377790&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377790')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3232
+INSERT INTO JUGADOR VALUES(3232,0,'GELLA ESCARTIN, PABLO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817490&c=2189202&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3292
+INSERT INTO JUGADOR VALUES(3292,0,'POLANCO TAVAREZ, EDDY RAFAEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=2375931&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375931')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3339
+INSERT INTO JUGADOR VALUES(3339,208,'TONCINIC, FILIP','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=2158324&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158324')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3344
+INSERT INTO JUGADOR VALUES(3344,0,'DE ASSIS AFONSO, JULIO CLAVER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=2276182&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3402
+INSERT INTO JUGADOR VALUES(3402,0,'RODRIGUEZ GIL, VICTOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=1840859&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3613
+INSERT INTO JUGADOR VALUES(3613,190,'ALONSO MART\u00cdNEZ, FRANCISCO FERNANDO','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=1446122&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1446122')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3617
+INSERT INTO JUGADOR VALUES(3617,208,'WASHBURN, NICHOLAS ROBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817521&c=2027332&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2027332')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=3934
+INSERT INTO JUGADOR VALUES(3934,0,'ELERAKY, SAMI EISSA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817492&c=2274957&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274957')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=4071
+INSERT INTO JUGADOR VALUES(4071,0,'MATA CORT\u00c9S, XAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816926&c=1943565&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=4493
+INSERT INTO JUGADOR VALUES(4493,185,'DI NUNNO, MICHELE CHRISTOPHER','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817170&c=2325271&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325271')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=4720
+INSERT INTO JUGADOR VALUES(4720,208,'MARCIUS, ALEKSANDAR','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816892&c=2162136&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2162136')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5338
+INSERT INTO JUGADOR VALUES(5338,0,'FERNANDEZ ROCHA, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=287138&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=287138')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5340
+INSERT INTO JUGADOR VALUES(5340,0,'KELLY, ANDREW','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2235020&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2235020')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5342
+INSERT INTO JUGADOR VALUES(5342,0,'PEREA GONZALEZ, RUBEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=1525763&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1525763')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5344
+INSERT INTO JUGADOR VALUES(5344,0,'LOPEZ MU\u00d1OZ, JUAN MIGUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=1524167&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1524167')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5346
+INSERT INTO JUGADOR VALUES(5346,0,'MALLA HERN\u00c1NDEZ, SERGIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=1562262&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1562262')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5348
+INSERT INTO JUGADOR VALUES(5348,0,'ROBINSON, MARCEL SEAN-MICAL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2325130&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325130')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5350
+INSERT INTO JUGADOR VALUES(5350,186,'ORTEGA AMUSCO, MIGUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=1173655&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1173655')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5352
+INSERT INTO JUGADOR VALUES(5352,0,'NEWBY, JABULANI JABARI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2290620&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2290620')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5354
+INSERT INTO JUGADOR VALUES(5354,0,'BARRO, SERIGNE M M SY DIT DIAMIL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2376806&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2376806')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5356
+INSERT INTO JUGADOR VALUES(5356,0,'KALINICENKO, ERIKAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2029483&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2029483')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5358
+INSERT INTO JUGADOR VALUES(5358,0,'DIENG, ELHADJI AMADOU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2382439&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2382439')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5360
+INSERT INTO JUGADOR VALUES(5360,0,'SERRANO ALVAREZ, MIGUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=1879281&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1879281')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5362
+INSERT INTO JUGADOR VALUES(5362,0,'MONTERO BERROA, JEAN CLAUDIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2382094&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5364
+INSERT INTO JUGADOR VALUES(5364,0,'LOPEZ SANTANA, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=1525747&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1525747')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5366
+INSERT INTO JUGADOR VALUES(5366,193,'FERN\u00c1NDEZ G\u00d3MEZ, ARTURO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=1251413&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1251413')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5368
+INSERT INTO JUGADOR VALUES(5368,0,'KLJAJIC, JOVAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2221689&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2221689')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5370
+INSERT INTO JUGADOR VALUES(5370,0,'REDONDO ALVAREZ DE SOTOMAYOR, ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=1825393&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5372
+INSERT INTO JUGADOR VALUES(5372,0,'STEINBERGS, MARCIS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2349460&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2349460')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5374
+INSERT INTO JUGADOR VALUES(5374,0,'LOPEZ DE LA TORRE SANCHEZ, RUBEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=1873981&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5376
+INSERT INTO JUGADOR VALUES(5376,0,'ARDANZA BERNAOLA, OIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2001274&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2001274')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5378
+INSERT INTO JUGADOR VALUES(5378,0,'MAXHUNI, EDON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2375712&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375712')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5381
+INSERT INTO JUGADOR VALUES(5381,0,'BALCEROWSKI, ALEKSANDER ROMAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2104517&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2104517')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5392
+INSERT INTO JUGADOR VALUES(5392,0,'LOPEZ-SANVICENTE RETA, PEDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=1761508&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5394
+INSERT INTO JUGADOR VALUES(5394,0,'CANDA, BRYCE JONATHAN NELSON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=2373276&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373276')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5396
+INSERT INTO JUGADOR VALUES(5396,0,'BELTRAN DIAZ, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=1489619&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1489619')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5398
+INSERT INTO JUGADOR VALUES(5398,0,'SAMAR, ZIGA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=2275540&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2275540')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5400
+INSERT INTO JUGADOR VALUES(5400,210,'IZA SOLER, CHRISTOPHER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=1673641&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1673641')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5402
+INSERT INTO JUGADOR VALUES(5402,0,'MENDICOTE RUBIO, UNAI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=1869378&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1869378')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5404
+INSERT INTO JUGADOR VALUES(5404,180,'LIBROIA, ANTHONY JOSEPH','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=2219986&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2219986')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5406
+INSERT INTO JUGADOR VALUES(5406,0,'ST\u00dcRUP, MADS BONDE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=2219810&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5408
+INSERT INTO JUGADOR VALUES(5408,0,'JARILLO CEBREIRO, ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=1762970&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5410
+INSERT INTO JUGADOR VALUES(5410,0,'OKONKWO, NNAMDI JERRY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=2347754&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2347754')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5412
+INSERT INTO JUGADOR VALUES(5412,200,'CABRAL BUERIBERI, WALTER JUNIOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=1521251&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1521251')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5414
+INSERT INTO JUGADOR VALUES(5414,182,'FERNANDEZ RODRIGUEZ, ARTURO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=1078303&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1078303')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5416
+INSERT INTO JUGADOR VALUES(5416,207,'BITJAA KODY, JOHAN ERNEST','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2335802&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335802')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5418
+INSERT INTO JUGADOR VALUES(5418,0,'POMARES ABREU, FRANCISCO IMOBACH','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=1111986&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1111986')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5420
+INSERT INTO JUGADOR VALUES(5420,192,'MARTINEZ MU\u00d1UMER, IVAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=1170263&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1170263')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5422
+INSERT INTO JUGADOR VALUES(5422,198,'RUIZ DE GALARRETA FERNANDEZ, ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=870408&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=870408')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5424
+INSERT INTO JUGADOR VALUES(5424,0,'ROMAN ROMERO-VALDESPINO, PABLO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2038907&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2038907')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5426
+INSERT INTO JUGADOR VALUES(5426,0,'DIOP, MOUHAMADOU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2031303&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2031303')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5428
+INSERT INTO JUGADOR VALUES(5428,0,'ALONSO RUIZ, AYOZE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2325671&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325671')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5430
+INSERT INTO JUGADOR VALUES(5430,0,'SHONGANYA, EVARISTE TOLEMBO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2389892&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2389892')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5442
+INSERT INTO JUGADOR VALUES(5442,0,'AGBEKO, REGINALD CALEB','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2375675&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375675')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5444
+INSERT INTO JUGADOR VALUES(5444,0,'AGUILAR HERNANDEZ, VICTOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=1371559&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1371559')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5446
+INSERT INTO JUGADOR VALUES(5446,0,'TITIC, PAVLE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2128432&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2128432')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5448
+INSERT INTO JUGADOR VALUES(5448,0,'RODR\u00cdGUEZ RAMOS, SAMUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=841966&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=841966')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5450
+INSERT INTO JUGADOR VALUES(5450,0,'POLANCO TAVAREZ, EDDY RAFAEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2375931&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375931')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5452
+INSERT INTO JUGADOR VALUES(5452,0,'ROBINSON, MARCEL SEAN-MICAL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2325130&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325130')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5454
+INSERT INTO JUGADOR VALUES(5454,0,'HOLMES III, LEVI ANDREW','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2373428&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373428')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5456
+INSERT INTO JUGADOR VALUES(5456,0,'MIOTA BALLESTA, ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=1887639&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1887639')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5458
+INSERT INTO JUGADOR VALUES(5458,0,'NDIAYE, SERIGNE LAMINE BARA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=1865529&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1865529')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5460
+INSERT INTO JUGADOR VALUES(5460,188,'BOUZAN CUMPLIDO, ANTON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=1440545&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1440545')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5462
+INSERT INTO JUGADOR VALUES(5462,0,'TAYLOR, DOUGLAS EARL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2373438&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373438')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5464
+INSERT INTO JUGADOR VALUES(5464,0,'MASSALEY JR, ABRAHAM G','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=2371570&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371570')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5466
+INSERT INTO JUGADOR VALUES(5466,0,'TEJERA TEJO, JORGE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1223461&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1223461')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5468
+INSERT INTO JUGADOR VALUES(5468,0,'IBITAYO, ADEDEJI ADEKUNLE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=2299279&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2299279')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5470
+INSERT INTO JUGADOR VALUES(5470,183,'NAVARRO ARRUE, KEVIN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1508394&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1508394')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5472
+INSERT INTO JUGADOR VALUES(5472,196,'ABIA SILA, LARRY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1504451&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1504451')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5474
+INSERT INTO JUGADOR VALUES(5474,0,'BASTANTE CRESPO, GUILLERMO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1514517&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1514517')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5476
+INSERT INTO JUGADOR VALUES(5476,203,'HERNANDEZ FERRON, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1271510&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1271510')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5478
+INSERT INTO JUGADOR VALUES(5478,0,'KRAJINA, FILIP','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=2373236&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373236')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5480
+INSERT INTO JUGADOR VALUES(5480,0,'ELECHI, ANTHONY KELECHI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=2375622&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375622')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5482
+INSERT INTO JUGADOR VALUES(5482,0,'ROUND, JACOB NATHANIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=2335424&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335424')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5493
+INSERT INTO JUGADOR VALUES(5493,191,'COSTA VAZQUEZ, SERGI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=216888&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=216888')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5495
+INSERT INTO JUGADOR VALUES(5495,198,'HESTER, ANTONIO KURTIS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=2092561&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2092561')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5497
+INSERT INTO JUGADOR VALUES(5497,204,'COSIALLS BORRAS, ROBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=1662155&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1662155')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5499
+INSERT INTO JUGADOR VALUES(5499,0,'NIANG, MOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=2182092&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2182092')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5501
+INSERT INTO JUGADOR VALUES(5501,0,'GASCON TORNE, JOSEP','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=1971000&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5503
+INSERT INTO JUGADOR VALUES(5503,192,'MORENO MARTIN, VICTOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=1441476&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1441476')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5505
+INSERT INTO JUGADOR VALUES(5505,0,'DIJKSTRA, MENNO LODEWIJK','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=2006888&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2006888')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5507
+INSERT INTO JUGADOR VALUES(5507,196,'SEVILLANO PUIG, GERARD','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=1763674&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1763674')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5509
+INSERT INTO JUGADOR VALUES(5509,201,'ESTEBAN CALVO, M\u00c0XIM','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=1783700&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1783700')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5521
+INSERT INTO JUGADOR VALUES(5521,0,'MARCOS, JUAN IGNACIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=2376010&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2376010')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5523
+INSERT INTO JUGADOR VALUES(5523,192,'FONT RODRIGUEZ, DAVID','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=1927864&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1927864')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5525
+INSERT INTO JUGADOR VALUES(5525,206,'FERNANDEZ MANZANARES, JAIME','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=1692313&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1692313')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5527
+INSERT INTO JUGADOR VALUES(5527,0,'RODRIGUEZ LARA, ADRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=1957927&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1957927')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5529
+INSERT INTO JUGADOR VALUES(5529,202,'MARTINEZ COSTA, SERGI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=1869393&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1869393')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5531
+INSERT INTO JUGADOR VALUES(5531,0,'GOULMY, QUENTIN PAUL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=2373301&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373301')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5533
+INSERT INTO JUGADOR VALUES(5533,0,'BRATANOVIC, HARIS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=2325782&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325782')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5535
+INSERT INTO JUGADOR VALUES(5535,208,'ZIZIC, NIKOLA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=2128433&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2128433')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5537
+INSERT INTO JUGADOR VALUES(5537,0,'BADJI, IBOU DIANKO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=2359863&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5539
+INSERT INTO JUGADOR VALUES(5539,0,'CARRE\u00d1O VIDAL, PAU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=1665447&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1665447')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5541
+INSERT INTO JUGADOR VALUES(5541,0,'BADIO, EL HADJI OMAR BRANCOU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=2373395&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373395')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5543
+INSERT INTO JUGADOR VALUES(5543,0,'JIMENEZ REDONDO, HECTOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=1510978&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1510978')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5545
+INSERT INTO JUGADOR VALUES(5545,0,'GIRALDEZ PEREZ, JOSE IGNACIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=1636897&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1636897')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5547
+INSERT INTO JUGADOR VALUES(5547,0,'FANIEL, VADAL PINSON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2219704&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2219704')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5549
+INSERT INTO JUGADOR VALUES(5549,197,'CUELLAR GARCIA, DAVID','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=1271466&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1271466')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5551
+INSERT INTO JUGADOR VALUES(5551,0,'MUKENDI KABANGA, GULLIT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2280812&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2280812')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5553
+INSERT INTO JUGADOR VALUES(5553,189,'MARTINEZ DIAZ, GERMAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=1821694&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1821694')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5555
+INSERT INTO JUGADOR VALUES(5555,210,'SUSKAVCEVIC, MILAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2095548&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2095548')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5557
+INSERT INTO JUGADOR VALUES(5557,190,'HAILEY, DE ANGELO JANELL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2066397&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2066397')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5559
+INSERT INTO JUGADOR VALUES(5559,0,'MEJIA ECHEVERRY, JHAN POOL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=1743328&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1743328')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5578
+INSERT INTO JUGADOR VALUES(5578,0,'ORTIZ MENDIETA, ALFONSO DAVID','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2335524&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335524')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5580
+INSERT INTO JUGADOR VALUES(5580,0,'BOLTE, THOMAS HUGH','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2364196&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364196')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5582
+INSERT INTO JUGADOR VALUES(5582,0,'NIELSEN, FREDERIK HOUGAARD','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2325173&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325173')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5584
+INSERT INTO JUGADOR VALUES(5584,204,'ARAMBURU LAMY, JON ANDER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=1509876&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1509876')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5586
+INSERT INTO JUGADOR VALUES(5586,182,'COELLO VALVERDE, JUAN JOSE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=201114&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=201114')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5588
+INSERT INTO JUGADOR VALUES(5588,0,'WHELAN, PATRICK MARK','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2325177&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325177')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5590
+INSERT INTO JUGADOR VALUES(5590,0,'ROBINSON, CLINT O''BRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2371534&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371534')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5592
+INSERT INTO JUGADOR VALUES(5592,191,'MULERO MALDONADO, GUILLERMO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=1674978&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1674978')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5594
+INSERT INTO JUGADOR VALUES(5594,0,'NORRIS JR, ANDRE LAZAR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2373726&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373726')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5596
+INSERT INTO JUGADOR VALUES(5596,0,'SOLARIN, JEFFREY OLUWATOSIN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2182043&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2182043')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5598
+INSERT INTO JUGADOR VALUES(5598,208,'ORLOV STURMAN MAURIN, VOLODYMYR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=1593195&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1593195')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5600
+INSERT INTO JUGADOR VALUES(5600,190,'SESE FRASNEDO, MARC','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1564172&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1564172')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5602
+INSERT INTO JUGADOR VALUES(5602,0,'SAINTEL, JUNIOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=2325135&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325135')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5604
+INSERT INTO JUGADOR VALUES(5604,0,'PARRADO CALABRIA, ARNAU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1787348&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1787348')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5606
+INSERT INTO JUGADOR VALUES(5606,0,'HELMANIS, KRISS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=2344692&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5608
+INSERT INTO JUGADOR VALUES(5608,0,'VALLE VIVES, ALBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=997403&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=997403')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5610
+INSERT INTO JUGADOR VALUES(5610,0,'DA SILVA, VINICIUS LUCIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=2293254&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2293254')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5612
+INSERT INTO JUGADOR VALUES(5612,0,'DOMENECH FONTANA, ADRIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1923881&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5614
+INSERT INTO JUGADOR VALUES(5614,190,'MARZO CHECA, CARLES','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1074329&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1074329')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5616
+INSERT INTO JUGADOR VALUES(5616,195,'BLANCH ESPINAL, MARC','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1069568&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1069568')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5618
+INSERT INTO JUGADOR VALUES(5618,205,'CIZMIC, LEO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=2225167&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2225167')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5630
+INSERT INTO JUGADOR VALUES(5630,0,'CORDOBA MURO, PABLO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1677841&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1677841')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5638
+INSERT INTO JUGADOR VALUES(5638,185,'JIMENEZ MARTIN, JORGE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=469956&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=469956')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5640
+INSERT INTO JUGADOR VALUES(5640,0,'SERRA MASSANET, GABRIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=1518116&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1518116')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5642
+INSERT INTO JUGADOR VALUES(5642,0,'TIMONER GIMENEZ, RAUL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=1532799&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1532799')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5644
+INSERT INTO JUGADOR VALUES(5644,203,'OTEGUI ESNAOLA, URKO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=1063096&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1063096')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5646
+INSERT INTO JUGADOR VALUES(5646,0,'BUTE, SHEMAR DEION','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=2373529&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373529')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5648
+INSERT INTO JUGADOR VALUES(5648,182,'HERNANDEZ GIMENEZ, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=1082289&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1082289')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5650
+INSERT INTO JUGADOR VALUES(5650,0,'GUEBERT, DREW JARRETT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=2364064&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364064')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5652
+INSERT INTO JUGADOR VALUES(5652,196,'COVINGTON, GARRET','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=2274898&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274898')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5654
+INSERT INTO JUGADOR VALUES(5654,200,'CORBACHO DE LA CRUZ, ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=208569&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=208569')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5656
+INSERT INTO JUGADOR VALUES(5656,195,'MENDEZ CARRION, ADRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=1263340&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1263340')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5658
+INSERT INTO JUGADOR VALUES(5658,0,'OKEKE, CHUKWUDUBEM CHUKWUKELUE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817536&c=2325178&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325178')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5660
+INSERT INTO JUGADOR VALUES(5660,184,'BASSAS NAVARRA, POL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2038429&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2038429')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5662
+INSERT INTO JUGADOR VALUES(5662,0,'MORALES ROS, ANTONIO JOSE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=1438515&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1438515')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5664
+INSERT INTO JUGADOR VALUES(5664,0,'RICHARDS, BYRON CHARLES','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2221477&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2221477')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5666
+INSERT INTO JUGADOR VALUES(5666,0,'KINDRED, JOEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2216935&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2216935')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5668
+INSERT INTO JUGADOR VALUES(5668,0,'CAMPOS DE BENGOA, JAIME','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=1769434&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1769434')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5670
+INSERT INTO JUGADOR VALUES(5670,0,'DORDEVIC, NEMANJA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2378312&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2378312')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5672
+INSERT INTO JUGADOR VALUES(5672,0,'OLECHNAVICIUS, JUSTINAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2279402&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2279402')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5674
+INSERT INTO JUGADOR VALUES(5674,0,'GOMEZ-ARRONES MORGADO, ALVARO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=1086145&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1086145')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5676
+INSERT INTO JUGADOR VALUES(5676,0,'BOL, THIK BOL MAKUAC','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2373315&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373315')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5678
+INSERT INTO JUGADOR VALUES(5678,0,'DE LA RUA DE AGUSTIN, DANIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=2363916&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2363916')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5701
+INSERT INTO JUGADOR VALUES(5701,0,'DEL CERRO MARTIN, ADRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=1796637&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5705
+INSERT INTO JUGADOR VALUES(5705,0,'DIOP, KHALIFA ABABACAR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2246844&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5708
+INSERT INTO JUGADOR VALUES(5708,0,'VRANKOVIC, ANTONIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818126&c=2375711&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375711')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5710
+INSERT INTO JUGADOR VALUES(5710,0,'LOZOYA, GRANT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=2364060&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364060')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5712
+INSERT INTO JUGADOR VALUES(5712,185,'CREUS CUSTODIO, JOAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=219809&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=219809')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5714
+INSERT INTO JUGADOR VALUES(5714,0,'WOODS, TREVIN GEORGE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=2336626&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2336626')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5716
+INSERT INTO JUGADOR VALUES(5716,205,'GARCIA CASADO, IVAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=324793&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=324793')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5718
+INSERT INTO JUGADOR VALUES(5718,186,'GUIA HORMIGON, XAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=1051598&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1051598')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5720
+INSERT INTO JUGADOR VALUES(5720,198,'SAN EPIFANIO HERRERO, EDGAR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=1657670&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1657670')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5722
+INSERT INTO JUGADOR VALUES(5722,200,'HOMS AGUILAR, ALBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=1073584&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1073584')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5724
+INSERT INTO JUGADOR VALUES(5724,0,'BALASTEGUI MARTINEZ, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=1727456&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1727456')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5726
+INSERT INTO JUGADOR VALUES(5726,0,'DIOP, MOUHAMADOU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=2031303&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2031303')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5728
+INSERT INTO JUGADOR VALUES(5728,0,'BAQUES GARCIA, NIL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=1912380&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1912380')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5730
+INSERT INTO JUGADOR VALUES(5730,0,'GORDON, NICHOLAS LESTON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=2364602&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364602')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5750
+INSERT INTO JUGADOR VALUES(5750,188,'RUBIN DE CELIS FERRANDO, MARC','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=2029254&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2029254')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5752
+INSERT INTO JUGADOR VALUES(5752,0,'DAVIS JR, WENDELL COREY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=2334657&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2334657')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5754
+INSERT INTO JUGADOR VALUES(5754,0,'RODRIGUEZ FLAQUE, GERARD','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=1893854&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1893854')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5756
+INSERT INTO JUGADOR VALUES(5756,185,'DUCH BELTRAN, ADRIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=1289784&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1289784')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5758
+INSERT INTO JUGADOR VALUES(5758,0,'FERNANDEZ SAIZ, RUBEN MANUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=1556631&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1556631')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5760
+INSERT INTO JUGADOR VALUES(5760,203,'DIENG, LAMINE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=2219987&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2219987')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5762
+INSERT INTO JUGADOR VALUES(5762,0,'HUNDLEY, MICHAEL ANTHONY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=2380316&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2380316')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5764
+INSERT INTO JUGADOR VALUES(5764,0,'MCCULLOCH, DAVID THOMAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=2373611&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373611')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5766
+INSERT INTO JUGADOR VALUES(5766,0,'GASQUE SUAY, CARLOS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=2029252&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2029252')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5768
+INSERT INTO JUGADOR VALUES(5768,0,'LOBACO MU\u00d1OZ, RAUL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=1978545&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1978545')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5773
+INSERT INTO JUGADOR VALUES(5773,0,'PEREZ MOYA, ALVARO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1566059&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1566059')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5785
+INSERT INTO JUGADOR VALUES(5785,0,'MCDONALD, WILLIAM SHANE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2333516&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2333516')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5790
+INSERT INTO JUGADOR VALUES(5790,0,'GRAHAM, HERBERT NOEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=2383768&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2383768')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5792
+INSERT INTO JUGADOR VALUES(5792,182,'SABAT VILA, ALBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816928&c=877844&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=877844')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5813
+INSERT INTO JUGADOR VALUES(5813,198,'BOLMARO, LEANDRO NICOLAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=2325541&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325541')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5818
+INSERT INTO JUGADOR VALUES(5818,187,'COSTA MARTINEZ, LLUIS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=216484&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=216484')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5848
+INSERT INTO JUGADOR VALUES(5848,0,'WRIGHT, KEDAR SALAM NKOSI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2335928&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335928')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5852
+INSERT INTO JUGADOR VALUES(5852,0,'CORDICE-OFORI-KYEREMEH, BRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2325195&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325195')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5855
+INSERT INTO JUGADOR VALUES(5855,0,'LEON RODRIGUEZ, BORJA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=1779549&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5857
+INSERT INTO JUGADOR VALUES(5857,0,'SANCHEZ DAVILA, JUAN IGNACIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=1710084&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5864
+INSERT INTO JUGADOR VALUES(5864,198,'RUBIO NI\u00d1IROLA, JUAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=1438620&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1438620')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5881
+INSERT INTO JUGADOR VALUES(5881,194,'BALLESPIN DE LA PE\u00d1A, IGNACIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=1676153&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1676153')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5888
+INSERT INTO JUGADOR VALUES(5888,0,'MARTI MITJANA, GERBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=2029217&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5890
+INSERT INTO JUGADOR VALUES(5890,0,'OSAYANDE, EFOSA ANTHONY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=2335185&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335185')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5896
+INSERT INTO JUGADOR VALUES(5896,0,'MOLINS CALDERON, POL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1784407&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1784407')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5935
+INSERT INTO JUGADOR VALUES(5935,0,'KOSTIC, DUSAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2274928&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274928')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5938
+INSERT INTO JUGADOR VALUES(5938,0,'EINIKIS, AIDAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2382032&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2382032')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5940
+INSERT INTO JUGADOR VALUES(5940,0,'COLADO CUESTA, DEYAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=1725809&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1725809')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5943
+INSERT INTO JUGADOR VALUES(5943,0,'BARROS GARCIA, SAMUEL ANTON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=1521184&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=5990
+INSERT INTO JUGADOR VALUES(5990,203,'URDIAIN LABAYEN, ANDER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=1593686&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1593686')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6004
+INSERT INTO JUGADOR VALUES(6004,0,'POWELL, JAHVAUGHN EVERALD','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2334516&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2334516')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6006
+INSERT INTO JUGADOR VALUES(6006,0,'BARTOLOME SCHNEIDER, HUGO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2374395&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2374395')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6008
+INSERT INTO JUGADOR VALUES(6008,176,'HEVIA GALARDI, BE\u00d1AT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=1750613&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1750613')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6010
+INSERT INTO JUGADOR VALUES(6010,0,'AIZPITARTE ARANZA, IERAI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2082635&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2082635')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6012
+INSERT INTO JUGADOR VALUES(6012,200,'SALAZAR ORTEGA, IKER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=1323166&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1323166')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6014
+INSERT INTO JUGADOR VALUES(6014,0,'DZIUBA, ANTON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2314149&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2314149')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6016
+INSERT INTO JUGADOR VALUES(6016,0,'BERAZA POZO, XABIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2021089&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2021089')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6018
+INSERT INTO JUGADOR VALUES(6018,0,'LOWRANCE, JAKOB KOWALIK','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2373393&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373393')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6020
+INSERT INTO JUGADOR VALUES(6020,0,'REAVES, SPENCER ALLEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2346150&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2346150')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6022
+INSERT INTO JUGADOR VALUES(6022,0,'VAN LACKE FALCO, FEDERICO MARTIN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=1167938&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1167938')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6044
+INSERT INTO JUGADOR VALUES(6044,195,'FERNANDEZ STEFANUTO, DANIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=1685661&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1685661')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6046
+INSERT INTO JUGADOR VALUES(6046,0,'SOAREZ PEREYRA, SERGIO DIEGO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=2373425&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373425')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6048
+INSERT INTO JUGADOR VALUES(6048,0,'RAMIREZ MOUNTAIN, ANDREW','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=1435210&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1435210')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6050
+INSERT INTO JUGADOR VALUES(6050,0,'PEREZ JA\u00d1EZ, VICTOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=1623250&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1623250')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6052
+INSERT INTO JUGADOR VALUES(6052,0,'FERRANDO ORTELLS, LUIS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=1673764&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1673764')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6054
+INSERT INTO JUGADOR VALUES(6054,188,'GANTT, GREGORY ROBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=2235789&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2235789')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6056
+INSERT INTO JUGADOR VALUES(6056,0,'CASANOVA DE ALBA, RAFAEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=1242814&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1242814')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6058
+INSERT INTO JUGADOR VALUES(6058,0,'MC DONNELL, SEAN WILLIAM','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=2274848&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274848')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6060
+INSERT INTO JUGADOR VALUES(6060,0,'PRINCE, TAEVAUNN PATRICK OSWALD','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=2336609&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2336609')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6062
+INSERT INTO JUGADOR VALUES(6062,0,'VAZQUEZ GIL, MANUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=1358232&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6088
+INSERT INTO JUGADOR VALUES(6088,0,'SMITH, KERWIN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817206&c=2373265&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373265')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6096
+INSERT INTO JUGADOR VALUES(6096,0,'SIGNES BELTRI, MANEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1967429&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1967429')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6126
+INSERT INTO JUGADOR VALUES(6126,183,'FUENTES FIDALGO, ADRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1763871&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1763871')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6128
+INSERT INTO JUGADOR VALUES(6128,196,'CAMERON, TAYLOR JOHN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=2219693&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2219693')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6130
+INSERT INTO JUGADOR VALUES(6130,0,'ROMERO MEDRANO, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1588823&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6132
+INSERT INTO JUGADOR VALUES(6132,0,'MAYOR MARTIN, ADRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1377331&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1377331')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6134
+INSERT INTO JUGADOR VALUES(6134,0,'TRUJILLO RIVEROLA, IGNACIO JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1592910&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1592910')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6136
+INSERT INTO JUGADOR VALUES(6136,0,'MU\u00d1OZ LUCENA, LUCAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1697234&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1697234')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6138
+INSERT INTO JUGADOR VALUES(6138,203,'NAVAJAS GARRIDO, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1002135&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1002135')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6140
+INSERT INTO JUGADOR VALUES(6140,0,'VIGARA BOHM, JON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=2013217&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2013217')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6142
+INSERT INTO JUGADOR VALUES(6142,0,'WILLIAMS, WILLIE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=2159324&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2159324')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6144
+INSERT INTO JUGADOR VALUES(6144,0,'MCDONALD, WILLIAM SHANE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=2333516&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2333516')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6146
+INSERT INTO JUGADOR VALUES(6146,0,'IB\u00c1\u00d1EZ FIDALGO, PABLO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1585590&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1585590')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6148
+INSERT INTO JUGADOR VALUES(6148,208,'DIATTA, BRUNO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1990157&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1990157')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6158
+INSERT INTO JUGADOR VALUES(6158,193,'GURIDI ALCIBAR, IBON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2028647&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2028647')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6171
+INSERT INTO JUGADOR VALUES(6171,0,'DE PABLO DEL CASTILLO, MIGUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1555336&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1555336')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6173
+INSERT INTO JUGADOR VALUES(6173,0,'SPYRIDONIDIS, ALEXANDROS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=2373233&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373233')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6175
+INSERT INTO JUGADOR VALUES(6175,0,'JUSTICE, BEAU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=2373620&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373620')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6177
+INSERT INTO JUGADOR VALUES(6177,198,'ALVAREZ PUERTAS, MARIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1328788&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1328788')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6179
+INSERT INTO JUGADOR VALUES(6179,193,'MANCHON CRESPO, DANIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1710454&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1710454')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6181
+INSERT INTO JUGADOR VALUES(6181,0,'JORDA RODRIGUEZ, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1676991&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1676991')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6183
+INSERT INTO JUGADOR VALUES(6183,0,'LOPEZ SANCHEZ, JOSE ANTONIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1648047&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1648047')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6185
+INSERT INTO JUGADOR VALUES(6185,0,'ALDERETE DIAZ, DIEGO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1676845&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1676845')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6187
+INSERT INTO JUGADOR VALUES(6187,0,'KLINEWSKI, MATTHEW MICHAEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=2371497&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371497')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6189
+INSERT INTO JUGADOR VALUES(6189,0,'PAUKSTE, JONAS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=2334629&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2334629')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6195
+INSERT INTO JUGADOR VALUES(6195,0,'ANSORREGUI DEBA, MANEX','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2082685&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6203
+INSERT INTO JUGADOR VALUES(6203,0,'MORO ARGUELLES, ANGEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=1455748&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1455748')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6205
+INSERT INTO JUGADOR VALUES(6205,0,'LADA PROVECHO, EDUARDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=1596937&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1596937')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6207
+INSERT INTO JUGADOR VALUES(6207,0,'REYNOLDS, JAMAL ANDREW','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2375835&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375835')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6209
+INSERT INTO JUGADOR VALUES(6209,0,'MENENDEZ GARCIA, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=1763780&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1763780')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6211
+INSERT INTO JUGADOR VALUES(6211,0,'ADON ENCARNACION, GREGORIO JESUS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2375833&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375833')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6213
+INSERT INTO JUGADOR VALUES(6213,207,'POYATOS PARRA, CARLOS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=1246715&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1246715')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6215
+INSERT INTO JUGADOR VALUES(6215,186,'PORTUGUES GARC\u00cdA, JOAQU\u00cdN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=1541184&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1541184')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6217
+INSERT INTO JUGADOR VALUES(6217,0,'UKAWUBA, ROBERT CHIMA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2381985&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2381985')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6219
+INSERT INTO JUGADOR VALUES(6219,0,'J\u00c4DERSTEN, HENRIK','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2375834&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375834')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6221
+INSERT INTO JUGADOR VALUES(6221,0,'PUONDAK, MAKUEI JAMBO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2375832&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375832')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6233
+INSERT INTO JUGADOR VALUES(6233,0,'WILSON, CHARLIE ROCK','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=2371438&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371438')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6235
+INSERT INTO JUGADOR VALUES(6235,0,'REAL LOPEZ, ALBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1388285&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1388285')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6237
+INSERT INTO JUGADOR VALUES(6237,198,'JIM\u00c9NEZ GONZ\u00c1LEZ, JOSE ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1447521&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1447521')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6239
+INSERT INTO JUGADOR VALUES(6239,204,'ESTEVEZ DAVILA, YAGO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1110998&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1110998')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6241
+INSERT INTO JUGADOR VALUES(6241,194,'YARNOZ LUMBRERAS, PABLO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1530932&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1530932')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6243
+INSERT INTO JUGADOR VALUES(6243,200,'GARCIA HEREPEY-CSAKANYI, ADRIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=335173&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=335173')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6245
+INSERT INTO JUGADOR VALUES(6245,0,'GOMEZ BARRAL, RODRIGO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1397157&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1397157')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6247
+INSERT INTO JUGADOR VALUES(6247,194,'NARROS PE\u00d1A, I\u00d1AKI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=671041&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=671041')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6249
+INSERT INTO JUGADOR VALUES(6249,212,'HERNANDEZ SONSECA LORENZO, EDUARDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=439431&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=439431')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6251
+INSERT INTO JUGADOR VALUES(6251,188,'THOMAS JR, WILLIAM LAMONTE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=2117434&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2117434')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6253
+INSERT INTO JUGADOR VALUES(6253,197,'LAFUENTE VELAZQUEZ, JORGE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1463976&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1463976')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6255
+INSERT INTO JUGADOR VALUES(6255,207,'GELAZONIA, SHOTA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2098528&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2098528')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6257
+INSERT INTO JUGADOR VALUES(6257,178,'MARCO GAONA, JOSE ANTONIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=548849&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=548849')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6259
+INSERT INTO JUGADOR VALUES(6259,0,'CECILIA PEREZ, SERGIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=1723311&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1723311')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6261
+INSERT INTO JUGADOR VALUES(6261,192,'GALLARDO BALTASAR, DIEGO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=1518647&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1518647')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6263
+INSERT INTO JUGADOR VALUES(6263,0,'STEEL, JOSHUA DYLAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2346712&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2346712')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6265
+INSERT INTO JUGADOR VALUES(6265,180,'CORRALES MARTIN, GUILLERMO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=1437479&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1437479')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6267
+INSERT INTO JUGADOR VALUES(6267,200,'RODRIGUEZ AGUILAR, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=1693900&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1693900')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6269
+INSERT INTO JUGADOR VALUES(6269,203,'OLIVA GOMEZ, JUAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=1443370&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1443370')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6271
+INSERT INTO JUGADOR VALUES(6271,190,'VAZQUEZ ASTILLEROS, ANGEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2038904&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2038904')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6273
+INSERT INTO JUGADOR VALUES(6273,0,'DIEBALL, ADAM BRINTON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2376735&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2376735')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6298
+INSERT INTO JUGADOR VALUES(6298,0,'ROMAN BENNASSAR, GABRIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=1489293&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1489293')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6301
+INSERT INTO JUGADOR VALUES(6301,0,'VILLAMIL GAL\u00c1N, GUIDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=2335968&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6304
+INSERT INTO JUGADOR VALUES(6304,201,'NICHOLAS, RYAN TIMOTHY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816943&c=2157676&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2157676')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6307
+INSERT INTO JUGADOR VALUES(6307,208,'LUCAS BLASCO, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=1106502&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1106502')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6309
+INSERT INTO JUGADOR VALUES(6309,203,'BORDIGNON BARBIERI, DANIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2160153&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2160153')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6311
+INSERT INTO JUGADOR VALUES(6311,190,'SANZ BARRIO, ALVARO MIGUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=1462665&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1462665')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6313
+INSERT INTO JUGADOR VALUES(6313,0,'PALAZUELOS PEREZ, ALVARO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=1622369&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1622369')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6315
+INSERT INTO JUGADOR VALUES(6315,175,'CAZORLA BENITEZ, HAROL DAVID','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2274915&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274915')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6317
+INSERT INTO JUGADOR VALUES(6317,192,'SUTINA BUSTAMANTE, JUAN PABLO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=1250885&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1250885')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6319
+INSERT INTO JUGADOR VALUES(6319,0,'SANZ ZARANDONA, MIKEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2026085&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2026085')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6321
+INSERT INTO JUGADOR VALUES(6321,210,'NDOYE, ABDOULAYE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2217084&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217084')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6323
+INSERT INTO JUGADOR VALUES(6323,200,'TOLEDO ZAMORA, CARLOS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=1439463&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1439463')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6325
+INSERT INTO JUGADOR VALUES(6325,209,'KARAHODZIC, KENAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2335491&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335491')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6327
+INSERT INTO JUGADOR VALUES(6327,0,'PRINCE, TAEVAUNN PATRICK OSWALD','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2336609&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2336609')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6350
+INSERT INTO JUGADOR VALUES(6350,0,'EJIM, RYAN CHIDOZIE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2376800&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2376800')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6356
+INSERT INTO JUGADOR VALUES(6356,0,'BUXTON, SAM','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817196&c=2164036&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2164036')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6360
+INSERT INTO JUGADOR VALUES(6360,0,'GARCIA FERNANDEZ, JOSE IGNACIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=1078304&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1078304')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6364
+INSERT INTO JUGADOR VALUES(6364,0,'CARCEDO ROYUELA, FERNANDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=1845029&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6366
+INSERT INTO JUGADOR VALUES(6366,0,'ARIJA DE LA PE\u00d1A, DAVID','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=1845142&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6368
+INSERT INTO JUGADOR VALUES(6368,205,'NAKIDJIM, PLACIDE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2234364&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2234364')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6370
+INSERT INTO JUGADOR VALUES(6370,0,'CARPINTERO REVILLA, EDUARDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2280219&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6373
+INSERT INTO JUGADOR VALUES(6373,0,'SOW, PAPE AMADOU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=2279601&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2279601')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6395
+INSERT INTO JUGADOR VALUES(6395,208,'KONATE, BAKARY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=1750786&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1750786')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6397
+INSERT INTO JUGADOR VALUES(6397,188,'ESTALAYO CELADA, JOSEBA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=1812800&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1812800')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6399
+INSERT INTO JUGADOR VALUES(6399,188,'OLIVIER CA\u00d1ADELL, POL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=1495505&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1495505')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6401
+INSERT INTO JUGADOR VALUES(6401,0,'ALDECOA-OTALORA AZCARATE, JON','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=1978819&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1978819')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6403
+INSERT INTO JUGADOR VALUES(6403,0,'SAKHNIUK, YEVGEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2374450&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2374450')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6405
+INSERT INTO JUGADOR VALUES(6405,0,'JOHNSTON, COREY WHIDDEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2374449&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2374449')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6407
+INSERT INTO JUGADOR VALUES(6407,200,'MENDIA SANGRONIZ, BORJA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=1352695&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1352695')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6409
+INSERT INTO JUGADOR VALUES(6409,0,'SAINZ DE LA MAZA GARRASTACHU, MIKEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=1773343&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1773343')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6411
+INSERT INTO JUGADOR VALUES(6411,0,'MARTINEZ PRETEL, EMILIO DAMIAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=1610350&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1610350')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6413
+INSERT INTO JUGADOR VALUES(6413,0,'FRIAS GOMEZ, RAUL ANTONIO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2374448&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2374448')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6429
+INSERT INTO JUGADOR VALUES(6429,0,'KIMBROUGH, MARTYCE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=2335307&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335307')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6431
+INSERT INTO JUGADOR VALUES(6431,198,'JIM\u00c9NEZ GONZ\u00c1LEZ, JOSE ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1447521&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1447521')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6436
+INSERT INTO JUGADOR VALUES(6436,202,'PORTALEZ MUR, MARCOS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1686541&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1686541')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6439
+INSERT INTO JUGADOR VALUES(6439,194,'MARIN AYERBE, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1451295&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1451295')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6441
+INSERT INTO JUGADOR VALUES(6441,208,'BIESHAAR, TERRENCE CHRISTOFFEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1783699&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1783699')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6478
+INSERT INTO JUGADOR VALUES(6478,0,'CALVO ROBLEDILLO, CARLOS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=2093785&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2093785')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6481
+INSERT INTO JUGADOR VALUES(6481,0,'DOCHE, ALEXANDRE MICHEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=2378719&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2378719')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6509
+INSERT INTO JUGADOR VALUES(6509,0,'DRAGOVIC, BALSA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2382926&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2382926')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6513
+INSERT INTO JUGADOR VALUES(6513,0,'VUJADINOVIC, FILIP','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2382196&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2382196')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6518
+INSERT INTO JUGADOR VALUES(6518,207,'BOCOUM, NOUHOUM','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2219652&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2219652')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6558
+INSERT INTO JUGADOR VALUES(6558,165,'ROBINSON JR, STEVE LAMONT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2335995&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335995')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6601
+INSERT INTO JUGADOR VALUES(6601,0,'EJIM, KENNY TOBECHI','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2335373&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335373')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6605
+INSERT INTO JUGADOR VALUES(6605,0,'IVEY, JIMOND RAY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2391194&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391194')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6610
+INSERT INTO JUGADOR VALUES(6610,0,'PLAISANCE, SCOTT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2374451&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2374451')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6612
+INSERT INTO JUGADOR VALUES(6612,0,'CORNISH, JARON JARVOS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2408954&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2408954')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6626
+INSERT INTO JUGADOR VALUES(6626,0,'ODOCH, ROBINSON OPONG','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2300111&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2300111')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6631
+INSERT INTO JUGADOR VALUES(6631,0,'UGOCHUKWU, STEPHEN CHUKWUEMEKA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817199&c=2415153&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2415153')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6646
+INSERT INTO JUGADOR VALUES(6646,0,'MCGLYNN IV, PATRICK JAMES','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816701&c=2390435&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2390435')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6686
+INSERT INTO JUGADOR VALUES(6686,0,'SOROLLA MENASANCH, JAUME','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816930&c=1763682&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1763682')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6693
+INSERT INTO JUGADOR VALUES(6693,0,'HARO VAL, ALEIX','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816929&c=1485040&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6800
+INSERT INTO JUGADOR VALUES(6800,0,'AZPILLAGA ETXANIZ, JOSEBA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816631&c=2082684&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6822
+INSERT INTO JUGADOR VALUES(6822,0,'SALINAS INFANTE, JAVIER','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816634&c=1543937&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1543937')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6867
+INSERT INTO JUGADOR VALUES(6867,0,'EBEL, NOLAN BLAKE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2391875&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391875')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6870
+INSERT INTO JUGADOR VALUES(6870,201,'LLANO URAIN, JAIME','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=1802852&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1802852')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6873
+INSERT INTO JUGADOR VALUES(6873,0,'AMIUS, MIKE BERLEY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2391876&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391876')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6875
+INSERT INTO JUGADOR VALUES(6875,0,'SWIFT, ROBERT CHRISTEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818124&c=2301967&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2301967')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6886
+INSERT INTO JUGADOR VALUES(6886,208,'OKOROH, KINGSLEY UZOCHUKWU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818127&c=2336040&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2336040')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6916
+INSERT INTO JUGADOR VALUES(6916,209,'KARAHODZIC, KENAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=2335491&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335491')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6918
+INSERT INTO JUGADOR VALUES(6918,208,'KONATE, BAKARY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818125&c=1750786&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1750786')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6948
+INSERT INTO JUGADOR VALUES(6948,205,'NAKIDJIM, PLACIDE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816927&c=2234364&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2234364')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6961
+INSERT INTO JUGADOR VALUES(6961,0,'ALONSO CUEVAS, ALBERTO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=1879609&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6976
+INSERT INTO JUGADOR VALUES(6976,0,'VILOTIJEVIC, ZORAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2245311&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2245311')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6979
+INSERT INTO JUGADOR VALUES(6979,0,'GREENAWAY, QUARRY CULBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2335801&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335801')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=6982
+INSERT INTO JUGADOR VALUES(6982,0,'STILMA, MORGAN SIETSE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817019&c=2391239&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391239')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7016
+INSERT INTO JUGADOR VALUES(7016,0,'PICHARDO VARGAS, FAUSTO MIGUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816666&c=2415264&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2415264')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7041
+INSERT INTO JUGADOR VALUES(7041,180,'LAFUENTE SISO, ALBERT','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817621&c=1494619&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1494619')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7054
+INSERT INTO JUGADOR VALUES(7054,0,'VUJOVIC, NIKOLA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=818118&c=2415536&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2415536')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7066
+INSERT INTO JUGADOR VALUES(7066,0,'DOMINGO SESE, POL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=1924004&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1924004')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7089
+INSERT INTO JUGADOR VALUES(7089,0,'ROMERO FIGUERAS, JOEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817645&c=1958764&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7092
+INSERT INTO JUGADOR VALUES(7092,0,'WILLIAMS, KYLE STEVEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=2391504&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391504')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7117
+INSERT INTO JUGADOR VALUES(7117,0,'RYAN CHIDOZIE, EJIM','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2389839&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2389839')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7119
+INSERT INTO JUGADOR VALUES(7119,0,'ORTIZ MENDIETA, ALFONSO DAVID','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2335524&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335524')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7124
+INSERT INTO JUGADOR VALUES(7124,0,'BERASATEGUI TORRENTE, GONZALO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2015996&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7132
+INSERT INTO JUGADOR VALUES(7132,0,'BOLTE, THOMAS HUGH','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817629&c=2364196&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364196')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7147
+INSERT INTO JUGADOR VALUES(7147,0,'DEL CERRO LEGASA, ALEJANDRO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1792323&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7198
+INSERT INTO JUGADOR VALUES(7198,0,'RODRIGUEZ RODAS, DANIEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817539&c=2266834&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7209
+INSERT INTO JUGADOR VALUES(7209,0,'FERNANDEZ SANTESTEBAN, EDUARDO','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817085&c=1989178&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7248
+INSERT INTO JUGADOR VALUES(7248,178,'CAZORLA MEDINA, MARIA TERESA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=1443473&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1443473')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7250
+INSERT INTO JUGADOR VALUES(7250,167,'DOMINGUEZ FERNANDEZ, SILVIA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=249262&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=249262')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7252
+INSERT INTO JUGADOR VALUES(7252,178,'HAYES, RENARA TIFFANY','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=2371524&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371524')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7254
+INSERT INTO JUGADOR VALUES(7254,185,'VILARO ARAGONES, ANDREA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=1074107&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1074107')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7256
+INSERT INTO JUGADOR VALUES(7256,0,'FAGBENLE, TEMITOPE TITILOLA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=2390408&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2390408')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7258
+INSERT INTO JUGADOR VALUES(7258,191,'GIL COLLADO, LAURA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=1385801&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1385801')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7260
+INSERT INTO JUGADOR VALUES(7260,190,'HOF, EMESE EVA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=2371525&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371525')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7262
+INSERT INTO JUGADOR VALUES(7262,178,'LOYD, JEWELL BLESSING','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=2348513&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2348513')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7264
+INSERT INTO JUGADOR VALUES(7264,196,'VITOLA, KRISTINE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=2097536&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2097536')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7266
+INSERT INTO JUGADOR VALUES(7266,183,'SAMUELSON, KARLIE ANNE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=2371537&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371537')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7268
+INSERT INTO JUGADOR VALUES(7268,174,'MARTINEZ PRAT, NURIA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=588567&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=588567')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7270
+INSERT INTO JUGADOR VALUES(7270,186,'ELONU, ADAORA NNENNA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2027333&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2027333')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7272
+INSERT INTO JUGADOR VALUES(7272,182,'PALAU ALTES, LAIA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=1059460&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1059460')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7274
+INSERT INTO JUGADOR VALUES(7274,178,'MENDI, MAGALI','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2274981&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274981')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7276
+INSERT INTO JUGADOR VALUES(7276,0,'VASIC, SONJA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2380037&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2380037')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7278
+INSERT INTO JUGADOR VALUES(7278,0,'BISHOP, ABBY KATE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2399681&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2399681')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7280
+INSERT INTO JUGADOR VALUES(7280,187,'PEREZ ARAUJO, MARIA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=1481483&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1481483')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7282
+INSERT INTO JUGADOR VALUES(7282,181,'XARGAY CASADEMONT, MARTA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=1666427&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1666427')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7284
+INSERT INTO JUGADOR VALUES(7284,191,'COULIBALY, NAIGNOUMA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2167183&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2167183')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7286
+INSERT INTO JUGADOR VALUES(7286,178,'MOLINUEVO GARCIA, CRISTINA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1752406&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1752406')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7288
+INSERT INTO JUGADOR VALUES(7288,167,'ASURMENDI VILLAVERDE, MARIA DEL CARMEN','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1044456&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1044456')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7290
+INSERT INTO JUGADOR VALUES(7290,184,'QUEVEDO CA\u00d1IZARES, LAURA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1310004&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1310004')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7292
+INSERT INTO JUGADOR VALUES(7292,185,'VAN DEN ADEL, NATALIE ISABELLE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=2094011&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2094011')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7294
+INSERT INTO JUGADOR VALUES(7294,187,'PARDO HERVIAS, LAURA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1169894&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1169894')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7296
+INSERT INTO JUGADOR VALUES(7296,188,'CARRERA QUINTANA, RAQUEL','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1704138&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1704138')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7298
+INSERT INTO JUGADOR VALUES(7298,180,'BARBEE, SHACOBIA SHAUNTE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=2217014&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217014')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7300
+INSERT INTO JUGADOR VALUES(7300,183,'PEREZ TORRES, TANIA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1277457&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1277457')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7302
+INSERT INTO JUGADOR VALUES(7302,193,'SEDA, TAMARA ADELAIDE JOSE CAMACHO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=2325105&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325105')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7314
+INSERT INTO JUGADOR VALUES(7314,183,'WOJTA, JULIE NICOLE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=2375578&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2375578')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7316
+INSERT INTO JUGADOR VALUES(7316,191,'LO SYLLA, NOGAYE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=1519971&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1519971')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7318
+INSERT INTO JUGADOR VALUES(7318,170,'OCETE CASTILLO, GABRIELA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=687032&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=687032')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7320
+INSERT INTO JUGADOR VALUES(7320,181,'DIEZ FERNANDEZ, NAIARA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=243962&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=243962')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7322
+INSERT INTO JUGADOR VALUES(7322,188,'ARROJO JIMENEZ, MARIA BELEN','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=1541830&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1541830')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7324
+INSERT INTO JUGADOR VALUES(7324,174,'MOLINA-PRADOS MARTIN-BURO, JUANA MARIA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=1315143&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1315143')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7326
+INSERT INTO JUGADOR VALUES(7326,178,'DIETRICK, BLAKE JULIA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=2377669&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377669')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7328
+INSERT INTO JUGADOR VALUES(7328,188,'MAZIONYTE, GINTARE','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=2092505&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2092505')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7330
+INSERT INTO JUGADOR VALUES(7330,189,'MILIC, NIKOLINA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=2373390&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373390')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7332
+INSERT INTO JUGADOR VALUES(7332,183,'ROUNDTREE, MARGARET YVETTE','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=1985931&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1985931')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7334
+INSERT INTO JUGADOR VALUES(7334,167,'ARIZTIMU\u00d1O LOPEZ, ITZIAR','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=1833234&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1833234')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7336
+INSERT INTO JUGADOR VALUES(7336,169,'GARCIA URLEZAGA, IZASKUN','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1202420&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1202420')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7356
+INSERT INTO JUGADOR VALUES(7356,0,'ROMERO GARRIDO, MAR\u00cdA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=1724925&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7358
+INSERT INTO JUGADOR VALUES(7358,180,'OLIVEIRA FERREIRA, LAURA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2377234&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377234')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7360
+INSERT INTO JUGADOR VALUES(7360,188,'GINZO ARANTES, PAULA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=1621622&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1621622')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7362
+INSERT INTO JUGADOR VALUES(7362,178,'MUJOVIC, BOZICA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2363047&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2363047')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7364
+INSERT INTO JUGADOR VALUES(7364,191,'DIOUF, KHADIDIATOU','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2377239&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377239')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7366
+INSERT INTO JUGADOR VALUES(7366,192,'FORASTE GALOBARDES, MIRIAM','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=1091620&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1091620')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7368
+INSERT INTO JUGADOR VALUES(7368,174,'DOMUZIN, DRAGANA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2377232&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377232')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7370
+INSERT INTO JUGADOR VALUES(7370,173,'CARTER, ARICA DERRIS','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2377253&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377253')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7372
+INSERT INTO JUGADOR VALUES(7372,183,'SIMMS, JENNIE CHANNEL','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2377236&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377236')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7383
+INSERT INTO JUGADOR VALUES(7383,183,'KRAKER, MEHRYN DONEGAN','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=2274807&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274807')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7385
+INSERT INTO JUGADOR VALUES(7385,190,'DAVYDOVA, MARIA MARGARITA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=2158351&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158351')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7387
+INSERT INTO JUGADOR VALUES(7387,185,'ERAUNCETAMURGIL AYESTARAN, MARIA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=1980407&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1980407')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7389
+INSERT INTO JUGADOR VALUES(7389,187,'SARR, OUMOUL KHAIRY','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=1672462&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1672462')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7391
+INSERT INTO JUGADOR VALUES(7391,176,'GONZALEZ DUARTE, LARA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=1583743&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1583743')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7393
+INSERT INTO JUGADOR VALUES(7393,173,'SNEZANA, ALEKSIC','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=2363059&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2363059')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7395
+INSERT INTO JUGADOR VALUES(7395,177,'GARCIA SALINERO, LAURA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=350458&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=350458')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7397
+INSERT INTO JUGADOR VALUES(7397,185,'NYSTROM, ELLEN ADINA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=2274935&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274935')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7399
+INSERT INTO JUGADOR VALUES(7399,190,'EDWARDS, ARIEL JOY','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=2097482&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2097482')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7410
+INSERT INTO JUGADOR VALUES(7410,191,'HEMPE, MERRITT RAMONA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=2335192&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335192')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7412
+INSERT INTO JUGADOR VALUES(7412,181,'SIMON, ZSOFIA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=2371541&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371541')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7414
+INSERT INTO JUGADOR VALUES(7414,170,'LAHUERTA MENDOZA, IRENE','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1459397&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1459397')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7416
+INSERT INTO JUGADOR VALUES(7416,172,'AYUSO BAGUR, AINA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1911694&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1911694')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7418
+INSERT INTO JUGADOR VALUES(7418,185,'GIMENO MARTINEZ, VEGA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1215194&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1215194')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7420
+INSERT INTO JUGADOR VALUES(7420,193,'MARKOVIC, NEVENA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=2159262&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2159262')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7422
+INSERT INTO JUGADOR VALUES(7422,193,'DIALLO DIENG, UMO DIALLO','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1760116&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1760116')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7424
+INSERT INTO JUGADOR VALUES(7424,177,'HERNANDEZ ORTIZ, ZOE','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1776571&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1776571')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7426
+INSERT INTO JUGADOR VALUES(7426,180,'NACICKAITE, KAMILE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=2346291&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2346291')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7428
+INSERT INTO JUGADOR VALUES(7428,178,'DILLARD, CIERRA JANAY','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=2371576&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371576')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7430
+INSERT INTO JUGADOR VALUES(7430,177,'CHARLES, CHANTEL ZENA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2217472&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217472')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7432
+INSERT INTO JUGADOR VALUES(7432,188,'MONTENEGRO SANTANA, RITA ESTHER','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=1113938&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1113938')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7434
+INSERT INTO JUGADOR VALUES(7434,190,'HERRERA BOXO, LAURA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=1311244&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1311244')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7436
+INSERT INTO JUGADOR VALUES(7436,172,'BETTENCOURT CORREIA, MARIA JOAO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2096656&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2096656')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7438
+INSERT INTO JUGADOR VALUES(7438,183,'ATKINSON, TANAYA MECHELLE','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2325358&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325358')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7440
+INSERT INTO JUGADOR VALUES(7440,178,'MOSS, DANDRA YUVETT','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2274757&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274757')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7442
+INSERT INTO JUGADOR VALUES(7442,171,'PEDRALS BARRIOS, CRISTINA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2335513&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335513')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7444
+INSERT INTO JUGADOR VALUES(7444,167,'BRKIC, IVA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2274936&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274936')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7446
+INSERT INTO JUGADOR VALUES(7446,185,'WEAVER, LYNDRA SHAJUAN','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2103794&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2103794')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7465
+INSERT INTO JUGADOR VALUES(7465,181,'SALAS, BROOKE WYLIE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2371434&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371434')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7467
+INSERT INTO JUGADOR VALUES(7467,175,'BUTINA, INJA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2371439&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371439')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7469
+INSERT INTO JUGADOR VALUES(7469,184,'LLORENTE, VICTORIA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2160343&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2160343')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7471
+INSERT INTO JUGADOR VALUES(7471,168,'QUIRANTE MARTINEZ, ALEJANDRA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=1083548&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1083548')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7473
+INSERT INTO JUGADOR VALUES(7473,180,'NAUWELAERS, HELEEN KARIN J','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2335853&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2335853')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7475
+INSERT INTO JUGADOR VALUES(7475,178,'VOJINOVIC, JULIJANA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2371437&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371437')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7477
+INSERT INTO JUGADOR VALUES(7477,185,'AJEMBA, IJEOMA OBIAMAKA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2371436&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371436')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7479
+INSERT INTO JUGADOR VALUES(7479,185,'CONDE DURAN, ITSASO','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=1752455&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1752455')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7481
+INSERT INTO JUGADOR VALUES(7481,188,'MANNING, MADELINE JANET','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2371435&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371435')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7483
+INSERT INTO JUGADOR VALUES(7483,190,'MOORE, TINARA NICOLE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=2325141&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325141')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7485
+INSERT INTO JUGADOR VALUES(7485,185,'PALMA JORGE, ANA MARIA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1568385&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1568385')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7487
+INSERT INTO JUGADOR VALUES(7487,185,'ETXARRI MUNARRIZ, IRATI','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1591676&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1591676')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7489
+INSERT INTO JUGADOR VALUES(7489,171,'PE\u00d1A JUBANY, LAURA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1562648&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1562648')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7491
+INSERT INTO JUGADOR VALUES(7491,181,'DIAZ CASTELLANO, YURENA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1371309&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1371309')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7493
+INSERT INTO JUGADOR VALUES(7493,185,'PUJOL LLUCH, ARIADNA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1735809&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1735809')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7495
+INSERT INTO JUGADOR VALUES(7495,196,'PASCUA SUAREZ, MARIA LUCILA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1763642&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1763642')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7497
+INSERT INTO JUGADOR VALUES(7497,190,'BAHI BLANQUERA, GEORGINA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=72320&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=72320')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7499
+INSERT INTO JUGADOR VALUES(7499,185,'NOGIC, JOVANA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=2373288&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373288')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7501
+INSERT INTO JUGADOR VALUES(7501,190,'GUSTAVSSON, ELIN JELENA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=2274961&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274961')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7503
+INSERT INTO JUGADOR VALUES(7503,183,'WIESE, SYDNEY ROSE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=2377812&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2377812')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7505
+INSERT INTO JUGADOR VALUES(7505,0,'GARCIA SAIZ, SONIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1930346&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7510
+INSERT INTO JUGADOR VALUES(7510,0,'MELINA RUIZ, JULIA LEONOR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=1085588&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7517
+INSERT INTO JUGADOR VALUES(7517,0,'ROMERO GARRIDO, SILVIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=1749176&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7528
+INSERT INTO JUGADOR VALUES(7528,178,'GOMEZ IGUAL, ANNA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=379564&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=379564')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7530
+INSERT INTO JUGADOR VALUES(7530,185,'GARI GILABERT, IRENE DEL REBOLLET','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1505713&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1505713')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7532
+INSERT INTO JUGADOR VALUES(7532,0,'LIZARAZU HERRERA, MARINA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1564875&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7534
+INSERT INTO JUGADOR VALUES(7534,177,'CASAS CARRERAS, QUERALT','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1091338&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1091338')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7536
+INSERT INTO JUGADOR VALUES(7536,193,'ABALDE DIAZ, TAMARA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1092&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1092')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7538
+INSERT INTO JUGADOR VALUES(7538,0,'COTANO DE JUAN, REBECA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1674308&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7540
+INSERT INTO JUGADOR VALUES(7540,188,'TIRERA, MEIYA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1982620&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1982620')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7542
+INSERT INTO JUGADOR VALUES(7542,188,'PINA TOLOSA, MARIA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1074750&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1074750')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7544
+INSERT INTO JUGADOR VALUES(7544,174,'ROMERO GONZALEZ, LETICIA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1375056&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1375056')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7546
+INSERT INTO JUGADOR VALUES(7546,180,'BROWN, JOY ALEXIS','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=2227319&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2227319')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7548
+INSERT INTO JUGADOR VALUES(7548,188,'RAMAN, JANA GEORGES R','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=2336448&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2336448')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7550
+INSERT INTO JUGADOR VALUES(7550,194,'REISINGEROVA, JULIA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=2274857&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274857')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7552
+INSERT INTO JUGADOR VALUES(7552,173,'CORNELIUS, LAURA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2364457&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364457')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7554
+INSERT INTO JUGADOR VALUES(7554,175,'SEILUND, ANNA GYLLING','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2364459&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364459')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7556
+INSERT INTO JUGADOR VALUES(7556,193,'URBANIAK -DORNSTAUDER, QUINN ASIA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2274964&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274964')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7558
+INSERT INTO JUGADOR VALUES(7558,184,'MONTOLIU MATIAS, MARTA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=1553655&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1553655')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7560
+INSERT INTO JUGADOR VALUES(7560,185,'JESPERSEN, MARIA STEEN','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2325132&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325132')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7562
+INSERT INTO JUGADOR VALUES(7562,191,'FELIXOVA, MARIA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2364458&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364458')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7564
+INSERT INTO JUGADOR VALUES(7564,187,'MESTRES RICART, GALA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2030119&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2030119')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7566
+INSERT INTO JUGADOR VALUES(7566,183,'MC PHEE, BRITTANY ANNE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2364460&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2364460')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7568
+INSERT INTO JUGADOR VALUES(7568,188,'OKONKWO, AMY NNENNA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2371446&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371446')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7578
+INSERT INTO JUGADOR VALUES(7578,0,'HISADO SANTOS, SIRA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=1995747&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7592
+INSERT INTO JUGADOR VALUES(7592,176,'BUCH ROSELL, ROSO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=1763580&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1763580')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7595
+INSERT INTO JUGADOR VALUES(7595,195,'ANDUSIC, TIJANA','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2373495&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373495')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7597
+INSERT INTO JUGADOR VALUES(7597,180,'OMA GIRALT, HELENA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=1572741&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1572741')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7599
+INSERT INTO JUGADOR VALUES(7599,175,'SYKES, BRITTNEY CHRISANTI','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2374407&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2374407')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7602
+INSERT INTO JUGADOR VALUES(7602,168,'BREEDLOVE, STARR REGINA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2217715&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217715')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7604
+INSERT INTO JUGADOR VALUES(7604,184,'LOYD, KALIS HELENA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2373237&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2373237')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7606
+INSERT INTO JUGADOR VALUES(7606,180,'LOPEZ RODRIGUEZ, AINHOA','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=1298762&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1298762')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7608
+INSERT INTO JUGADOR VALUES(7608,166,'STANACEV, ALEKSANDRA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2094871&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2094871')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7610
+INSERT INTO JUGADOR VALUES(7610,183,'NYINGIFA, ATONYE JENNIFER','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2334503&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2334503')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7612
+INSERT INTO JUGADOR VALUES(7612,186,'ALIAGA ROMERO, LAURA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=1909181&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1909181')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7614
+INSERT INTO JUGADOR VALUES(7614,193,'MILLER, CHERIN BRITANY','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=1752875&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1752875')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7616
+INSERT INTO JUGADOR VALUES(7616,185,'RICHARDS, SHEREESHA NATHESHA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2217847&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2217847')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7618
+INSERT INTO JUGADOR VALUES(7618,190,'SANCHEZ MARRUFO, BEATRIZ','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=1259670&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1259670')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7620
+INSERT INTO JUGADOR VALUES(7620,182,'ODWYER, FIONA EILISH','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2274973&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274973')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7622
+INSERT INTO JUGADOR VALUES(7622,0,'NIKOLIKJ, MATEA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2376970&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7647
+INSERT INTO JUGADOR VALUES(7647,187,'SUTHERLAND, AISHAH GAMEELA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=2275515&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2275515')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7653
+INSERT INTO JUGADOR VALUES(7653,175,'IVANOVIC, MILICA','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2351808&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2351808')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7655
+INSERT INTO JUGADOR VALUES(7655,186,'DONGUE, LEIA TANIA DO BASTIAO','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2189451&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2189451')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7657
+INSERT INTO JUGADOR VALUES(7657,176,'MILOGLAV, CARMEN','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2158337&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158337')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7659
+INSERT INTO JUGADOR VALUES(7659,175,'ESTEBAS ARMAS, PAULA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=1320072&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1320072')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7661
+INSERT INTO JUGADOR VALUES(7661,188,'STAMENKOVIC, MAJA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2376676&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2376676')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7663
+INSERT INTO JUGADOR VALUES(7663,166,'SILVA SERRANO, ROSELIS CAROLINA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2158354&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2158354')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7665
+INSERT INTO JUGADOR VALUES(7665,0,'LEWIS, KALEENA JORDAN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2384459&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2384459')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7667
+INSERT INTO JUGADOR VALUES(7667,192,'GIDDEN, VANESSA NICOLE','P\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2288440&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2288440')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7677
+INSERT INTO JUGADOR VALUES(7677,0,'ABAD MOYANO, CRISTINA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=1819418&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7679
+INSERT INTO JUGADOR VALUES(7679,0,'OLLERO MATEOS, CARLA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2064565&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7717
+INSERT INTO JUGADOR VALUES(7717,0,'COUSSEINS SMITH, JOYCE MEGANE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=2383517&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2383517')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7723
+INSERT INTO JUGADOR VALUES(7723,197,'DE SOUZA MACHADO, ERIKA CRISTINA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816790&c=1620016&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1620016')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7733
+INSERT INTO JUGADOR VALUES(7733,0,'VESTERBERG, EMMA JOSEFIN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816667&c=2391192&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391192')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7764
+INSERT INTO JUGADOR VALUES(7764,0,'BINTOU, DIEME MARIZY','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2391294&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391294')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7767
+INSERT INTO JUGADOR VALUES(7767,185,'TRAORE, ASTOU','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=1587961&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1587961')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7772
+INSERT INTO JUGADOR VALUES(7772,0,'PIERRE LOUIS, VIONISE ARONS','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=2376011&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2376011')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7778
+INSERT INTO JUGADOR VALUES(7778,166,'CACERES AYALA, CLARA MARIA','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=1587316&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1587316')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7784
+INSERT INTO JUGADOR VALUES(7784,0,'LUNA CASTRO, JACQUELINE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2391191&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391191')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7786
+INSERT INTO JUGADOR VALUES(7786,185,'GLADKOVA, IULLIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=2325159&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2325159')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7806
+INSERT INTO JUGADOR VALUES(7806,172,'LIZARAZU HERRERA, MARINA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817153&c=1564875&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1564875')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7819
+INSERT INTO JUGADOR VALUES(7819,183,'PARKS, ROBYN LASHAE','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=2097491&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2097491')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7825
+INSERT INTO JUGADOR VALUES(7825,176,'BUCH ROSELL, ROSO','Escolta','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816649&c=1763580&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1763580')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7862
+INSERT INTO JUGADOR VALUES(7862,0,'SOLER RAMI\u00d3, J\u00daLIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817368&c=2058635&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7883
+INSERT INTO JUGADOR VALUES(7883,190,'AKHATOR, OSARETIN EVELYN','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=2371526&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2371526')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7959
+INSERT INTO JUGADOR VALUES(7959,170,'DINKINS, BRITTANY','Base','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=2390393&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2390393')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7970
+INSERT INTO JUGADOR VALUES(7970,183,'CALVO DIAZ, ANA BEGO\u00d1A','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=1522945&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1522945')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=7976
+INSERT INTO JUGADOR VALUES(7976,183,'BLOCKTON, ALLAZIA J\u00b4HANI','Alero','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2374404&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2374404')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8081
+INSERT INTO JUGADOR VALUES(8081,0,'AYELA AYELA, DEBORAH OSAIYEKENWEN','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2217940&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8084
+INSERT INTO JUGADOR VALUES(8084,0,'LOZANO DAVILA, ALBA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=2034380&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8111
+INSERT INTO JUGADOR VALUES(8111,0,'PEREDA MARTINEZ DE ANTO\u00d1ANA, SONIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=2137879&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8196
+INSERT INTO JUGADOR VALUES(8196,0,'RODR\u00cdGUEZ RAMOS, ANDREA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=1713526&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8199
+INSERT INTO JUGADOR VALUES(8199,0,'VIVAS SACRAMENTO, ELISABET','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816957&c=1131903&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8213
+INSERT INTO JUGADOR VALUES(8213,0,'NAVARRO MARTINEZ, RAQUEL','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=1630409&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8254
+INSERT INTO JUGADOR VALUES(8254,183,'KNEZEVIC, ADRIJANA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817622&c=1673163&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1673163')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8274
+INSERT INTO JUGADOR VALUES(8274,0,'MOHAMMED, AISHA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2391426&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2391426')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8314
+INSERT INTO JUGADOR VALUES(8314,0,'RUANO MARTINEZ, ALBA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=1831686&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8362
+INSERT INTO JUGADOR VALUES(8362,0,'BEDIA DELGADO, IZAR','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=1671969&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8373
+INSERT INTO JUGADOR VALUES(8373,181,'GASCON QUINTANA, MARIA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=817212&c=1930891&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1930891')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8383
+INSERT INTO JUGADOR VALUES(8383,0,'SANTIBA\u00d1EZ HERRERO, INES','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=1867462&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8524
+INSERT INTO JUGADOR VALUES(8524,189,'FAUSSURIER ZAFRILLA, ANA CARLOTA','Ala p\u00edvot','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=1404063&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1404063')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8622
+INSERT INTO JUGADOR VALUES(8622,178,'FERRARI CALABRO, PAOLA ANDREA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1430474&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=1430474')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8694
+INSERT INTO JUGADOR VALUES(8694,0,'SUAREZ AZCARATE, PAULA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816620&c=1767370&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8703
+INSERT INTO JUGADOR VALUES(8703,0,'CENIS POLO, MARINA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1893128&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8738
+INSERT INTO JUGADOR VALUES(8738,0,'MASTRAL LEJARRAGA, ALEJANDRA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=2009672&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8885
+INSERT INTO JUGADOR VALUES(8885,0,'VILLAMOR APARICIO, CRISTINA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816908&c=1721468&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=8912
+INSERT INTO JUGADOR VALUES(8912,0,'ALBERDI LARRUCEA, MARTA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816862&c=1979172&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=9341
+INSERT INTO JUGADOR VALUES(9341,0,'GALLEGO VICENTE, CLAUDIA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2093725&med=0','')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=9457
+INSERT INTO JUGADOR VALUES(9457,167,'BRKIC, IVA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816678&c=2274936&med=0','http://competiciones.feb.es/estadisticas/Foto.aspx?c=2274936')
+COMMIT
+DELETE FROM JUGADOR WHERE ID=9470
+INSERT INTO JUGADOR VALUES(9470,0,'FRANCO FENTE, MAR\u00cdA TERESA','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816700&c=1883500&med=0',NULL)
+COMMIT
+DELETE FROM JUGADOR WHERE ID=9474
+INSERT INTO JUGADOR VALUES(9474,0,'MURUA TXINTXURRETA, IRENE','','http://competiciones.feb.es/estadisticas/Jugador.aspx?i=816860&c=2082788&med=0',NULL)
+COMMIT
+DISCONNECT

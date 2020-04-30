@@ -1,6 +1,7 @@
 package com.iesvjp.stats;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -22,7 +23,7 @@ import com.iesvjp.modelos.Equipo;
 import com.iesvjp.modelos.Jugador;
 import com.iesvjp.modelos.Partido;
 
-public class Utilidades {
+public class Scrap {
 	final static String NOMLEBORO="LIGA LEB ORO";
 	
 	public static void abrirEnNewTab(WebDriver driver, WebElement enlace) {
@@ -165,13 +166,32 @@ public class Utilidades {
 	private static void guardarNuevosPartidos(List<Equipo> equipos, EntityManager em) {
 		WebDriver driver=null;
 		PageResultadosEquipo nav;
+		List<HiloGuardarNuevosPartidos> hilos=new ArrayList<>();
+		boolean terminado=false;
 		for (int i = 0; i < equipos.size(); i++) {
 			System.out.println("Guardando fase de partido " + i + " de "+ (equipos.size()-1));
-			nav=new PageResultadosEquipo(driver);
-			nav.setEquipo(equipos.get(i));
-			nav.leerPartidosEquipo(em);
-			em.getTransaction().commit();
-			em.getTransaction().begin();
+			HiloGuardarNuevosPartidos h=new HiloGuardarNuevosPartidos(driver, equipos.get(i), em);
+			hilos.add(h);
+			h.start();
+			//em.getTransaction().commit();
+			//em.getTransaction().begin();
+		}
+		HiloGuardarNuevosPartidos h;
+		while(!terminado) {
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			terminado=true;
+			Iterator<HiloGuardarNuevosPartidos> it=hilos.iterator();			
+			while(it.hasNext() && terminado) {
+				h=it.next();
+				if(!h.haTerminado()) {
+					terminado=false;
+				}
+			}
 		}
 	}
 	
@@ -197,14 +217,33 @@ public class Utilidades {
 	private static void guardarDatosPartidosVacios(EntityManager em, WebDriver driver) {
 		System.out.println("Guardando datos de partidos vacíos");
 		List<Partido> partidos = em.createQuery("select p from Partido p where p.equipo1=null").getResultList();
+		List<HiloGuardarPartidosVacios> hilos=new ArrayList<HiloGuardarPartidosVacios>();
+		boolean terminado=false;
 		for (int i = 0; i < partidos.size(); i++) {
-			System.out.println("Guardando partido " + (i+1) + " de " + partidos.size());
-			PagePartido pagePartido=new PagePartido(driver);
-			pagePartido.guardarDatosPartido(partidos.get(i), em);
-			pagePartido.cerar();
-			em.getTransaction().commit();
-			em.getTransaction().begin();
+			HiloGuardarPartidosVacios hilo=new HiloGuardarPartidosVacios(partidos.get(i),em);
+			hilos.add(hilo);
+			//System.out.println("Guardando partido " + (i+1) + " de " + partidos.size());
+			hilo.start();			
+			//em.getTransaction().commit();
+			//em.getTransaction().begin();
 		}	
+		HiloGuardarPartidosVacios h;
+		while(!terminado) {
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			terminado=true;
+			Iterator<HiloGuardarPartidosVacios> it=hilos.iterator();			
+			while(it.hasNext() && terminado) {
+				h=it.next();
+				if(!h.isTerminado()) {
+					terminado=false;
+				}
+			}
+		}
 	}
 	
 	public static void guardarDatosJugadores() {
@@ -216,17 +255,36 @@ public class Utilidades {
 		EntityManager em = emf.createEntityManager();
 		// Iniciamos una transacción
 		em.getTransaction().begin();
+		boolean terminado=false;
 		List<Jugador> jugadores= em.createQuery("select j from Jugador j where j.puesto=null and url!=null").getResultList();
+		List<HiloGuardarJugadores> hilos=new ArrayList<>();
 		for (int i = 0; i < jugadores.size(); i++) {			
 			System.out.println("Guardando jugador " + i + " de "+ (jugadores.size()-1));
-			PageJugador pageJugador=new PageJugador(driver);
-			Jugador jugador=jugadores.get(i);
-			pageJugador.visit(jugador.getUrl());
-			pageJugador.leerJugador(jugador, em);
-			em.getTransaction().commit();
-			em.getTransaction().begin();
+			HiloGuardarJugadores hilo=new HiloGuardarJugadores(jugadores.get(i), em);
+			hilos.add(hilo);
+			hilo.start();
+			
+			//em.getTransaction().commit();
+			//em.getTransaction().begin();
 			//pageJugador.cerar();
 		}	
+		HiloGuardarJugadores h;
+		while(!terminado) {
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			terminado=true;
+			Iterator<HiloGuardarJugadores> it=hilos.iterator();			
+			while(it.hasNext() && terminado) {
+				h=it.next();
+				if(!h.isTerminado()) {
+					terminado=false;
+				}
+			}
+		}
 
 		em.getTransaction().commit();
 		em.close();

@@ -26,10 +26,13 @@ public class App {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
-		//Utilidades.guardarEquiposLebOro();
-		//Utilidades.guardarEquiposLebPlata();
-		//Utilidades.guardarEquiposLF();
-		//Utilidades.guardarPartidos();
+		/*Utilidades.guardarEquiposLebOro();
+		System.out.println("Guardados equipos oro");
+		Utilidades.guardarEquiposLebPlata();
+		System.out.println("Guardados equipos plata");
+		Utilidades.guardarEquiposLF();
+		System.out.println("Guardados equipos lf");*/
+		Utilidades.guardarPartidos();
 		Utilidades.guardarDatosJugadores();
 	}
 }
